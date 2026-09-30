@@ -7,7 +7,6 @@ import { makeStyles, spacing, typography } from "@/src/theme";
 import { useUserId } from "@/src/session";
 import { ALL_ID } from "@/src/components/category-grid";
 import { TopicPicker, TopicsBackdrop } from "@/src/components/topic-picker";
-import { LimitBadge } from "@/src/components/limit-badge";
 import { ONB } from "@/src/components/onboarding-palette";
 import { useI18n } from "@/src/i18n";
 import { CoachTip } from "@/src/coach-tips";
@@ -45,7 +44,6 @@ export default function Explore() {
           bounces={false} contentContainerStyle={{ paddingBottom: insets.bottom + spacing.md }}>
           <TopicPicker testID="explore" modeIdPrefix="explore" categories={cats.data!} selected={selected} modes={modes} columns={4}
             onToggleCategory={onToggleCategory} onToggleMode={onToggleMode} disabled={save.isPending} lockedModes={isPremium ? undefined : new Set(["lessons"])}
-            titleAccessory={<LimitBadge testID="explore-limit-badge" />}
             status={<View testID="explore-save-status" accessibilityLiveRegion="polite">
               <View style={styles.statusRow}>
                 <Text style={styles.status} testID="interests-count">{count === 0 ? t.no_interests : `${count} ${count === 1 ? t.interest_1 : t.interests}`}</Text>
