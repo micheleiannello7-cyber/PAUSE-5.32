@@ -7,6 +7,7 @@ import { BlurView } from "expo-blur";
 import { LinearGradient } from "expo-linear-gradient";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { TabIcon3D } from "./tab-icon-3d";
+import { TopicsTileIcon } from "./topics-tile-icon";
 import { TAB_ART_3D } from "./icon-3d-assets";
 import * as Haptics from "@/src/haptics";
 import { makeStyles, typography, useTheme, withAlpha } from "@/src/theme";
@@ -62,7 +63,9 @@ export function GlassTabBar({ state, descriptors, navigation }: Props) {
             >
               <View style={styles.iconWrap}>
                 {focused ? <View style={[styles.halo, { backgroundColor: withAlpha(colors.brand, 0.14), boxShadow: `0px 0px 18px ${withAlpha(colors.brand, 0.42)}` as any }]} /> : null}
-                <TabIcon3D route={icon} focused={focused} testID={`${testID}-icon`} />
+                {route.name === "explore"
+                  ? <TopicsTileIcon focused={focused} testID={`${testID}-icon`} />
+                  : <TabIcon3D route={icon} focused={focused} testID={`${testID}-icon`} />}
               </View>
               <Text testID={`${testID}-label`} style={[styles.label, { color: tint }, focused && styles.labelOn]} numberOfLines={1}>{label}</Text>
               <View style={[styles.indicator, focused && { backgroundColor: colors.brand, boxShadow: `0px 0px 8px ${withAlpha(colors.brand, 0.7)}` as any }]} />
