@@ -42,6 +42,9 @@ PAUSE è un'app mobile (Expo/React Native + FastAPI + MongoDB) di micro-apprendi
 - Backend: `fit_chapters.py` (GPT-5.4) snellisce i capitoli > 500 caratteri (IT+EN); salva in `chapter_fit_overrides.json`,
   riapplicato da `ensure_seed` (`chapter_fit.apply_fit_overrides`). Backup in `stories_backup_pre_fit`.
 
+## Home (2026-10-01)
+- Rimosso l'indicatore di avanzamento del mazzo (deck-progress.tsx eliminato); la card si allunga dello spazio liberato.
+
 ## Next Tasks
 - `fit_chapters.py` eseguito parzialmente (2026-10-01): 281/726 capitoli snelliti (104 storie) con ~1 $ di credito; la chiave si è esaurita.
   Restano 445 capitoli in 105 narrazioni (~1,2 $). Rilanciare `python fit_chapters.py` (idempotente) dopo la ricarica.

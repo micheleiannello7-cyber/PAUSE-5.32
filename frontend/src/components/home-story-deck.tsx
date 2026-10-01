@@ -8,10 +8,9 @@ import { StoryPreview } from "@/src/api";
 import { makeStyles } from "@/src/theme";
 import { HomeStoryCard } from "./home-story-card";
 import { DeckBadges, DECK_BADGES_GAP, DECK_BADGES_H } from "./deck-badges";
-import { DeckProgress, DECK_PROGRESS_H } from "./deck-progress";
 
 /** Altezza di ciò che il mazzo mostra sotto la card (dati + indicatore): la card prende il resto. */
-export const DECK_BELOW_CARD_H = DECK_BADGES_GAP + DECK_BADGES_H + DECK_PROGRESS_H;
+export const DECK_BELOW_CARD_H = DECK_BADGES_GAP + DECK_BADGES_H;
 
 type Props = {
   deck: StoryPreview[]; cursor: number; width: number; height: number; onChange: (index: number) => void; onOpen: (story: StoryPreview, rect?: CardRect) => void; onListen?: (story: StoryPreview) => void;
@@ -163,7 +162,6 @@ export function HomeStoryDeck({ deck, cursor, width, height, onChange, onOpen, o
         <Animated.View style={belowStyle}><DeckBadges story={deck[cursor]} width={cardWidth} /></Animated.View>
         </View>
       </GestureDetector>
-      <Animated.View style={belowStyle}><DeckProgress cursor={cursor} total={deck.length} /></Animated.View>
     </View>
   );
 }
