@@ -101,3 +101,53 @@
 #====================================================================================================
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
+user_problem_statement: "PAUSE — (1) tipografia: Plus Jakarta Sans come unico font dell'app (pesi per ruolo), senza toccare layout/colori/logiche; (2) lettore: ogni capitolo deve stare in una schermata — compattazione, riduzione automatica del corpo (min ~14pt) e, se serve, rinuncia all'anticipazione del capitolo seguente invece di una seconda schermata quasi vuota; (3) script fit_chapters.py per snellire i capitoli >500 caratteri (richiede credito Universal Key — non ancora eseguito)."
+
+frontend:
+  - task: "Plus Jakarta Sans su tutta l'app (theme.ts typography + utils/fonts.ts)"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/theme.ts, frontend/src/utils/fonts.ts"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Font files bundled in assets/fonts (5 pesi). typography.displayHero (ExtraBold) sui titoli di schermata (profilo, salvati, onboarding, premium, pause-limit, titolo storia nel lettore). Verificato via screenshot: onboarding, home, topics, profilo, lettore."
+  - task: "Lettore: capitolo in una schermata (tight → shrink font → drop teaser → pagine)"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/components/reader-section.tsx, frontend/app/deep-dive/[id].tsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Verificato a 390x844 e 375x667 su /deep-dive/v8-lez-how-revolutions-start-the-ingredients-that-repeat (capitoli 600-700 caratteri): tutte le sezioni alte una schermata, nessuna sovrapposizione testo/anticipazione."
+
+backend:
+  - task: "chapter_fit overrides applicati in ensure_seed"
+    implemented: true
+    working: true
+    file: "backend/chapter_fit.py, backend/fit_chapters.py, backend/server.py"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Boot ok: 'chapter fit overrides: {stories: 0...}' (file override ancora vuoto, script in attesa di credito)."
+
+test_plan:
+  current_focus:
+    - "Font Plus Jakarta Sans applicato ovunque, nessun overflow testo"
+    - "Lettore: ogni capitolo = una schermata, avanzamento con un gesto"
+  stuck_tasks: []
+  test_all: false
+  test_priority: "high_first"
+
+agent_communication:
+  - agent: "main"
+    message: "Solo frontend. Onboarding: 'Continue as guest' → scegli 3 categorie → 'onboarding-continue'. Lettore: /deep-dive/<id>. Il lettore è a pagine (gesto/wheel), non a scroll libero."

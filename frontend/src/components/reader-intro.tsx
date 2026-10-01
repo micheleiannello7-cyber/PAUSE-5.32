@@ -161,7 +161,7 @@ const useStyles = makeStyles((colors: ThemeColors) => ({
   column: { width: "100%", maxWidth: READER_MAX_W, alignSelf: "center", paddingHorizontal: COL_PAD_X, paddingTop: COL_PAD_TOP, gap: COL_GAP },
   titleWrap: { width: "100%" },
   coverTitle: {
-    color: colors.textWarm, fontFamily: typography.displayBold, letterSpacing: -0.8,
+    color: colors.textWarm, fontFamily: typography.displayHero, letterSpacing: -0.8,
     textShadowColor: withAlpha(colors.surface, 0.9), textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 14,
   },
   introBlock: { gap: spacing.sm + 2, paddingTop: spacing.sm },

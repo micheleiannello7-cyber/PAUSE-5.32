@@ -377,7 +377,7 @@ function ModeSwitchRow({
 
 const useStyles = makeStyles((colors) => ({
   container: { flex: 1, backgroundColor: colors.surface },
-  title: { color: colors.textWarm, fontFamily: typography.displayBold, fontSize: 30, letterSpacing: -0.5 },
+  title: { color: colors.textWarm, fontFamily: typography.displayHero, fontSize: 30, letterSpacing: -0.5 },
   avatarRow: { flexDirection: "row", alignItems: "center", gap: spacing.md, marginTop: spacing.lg },
   avatar: {
     width: 56, height: 56, borderRadius: 28, backgroundColor: colors.glassBgLit,

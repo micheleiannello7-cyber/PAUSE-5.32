@@ -3,7 +3,7 @@
 // trasparente come elemento grafico, occhiello "CAPITOLO X" nel colore del
 // tema, titolo, corpo in paragrafi brevi. Nessun contenuto extra.
 import { useEffect, useState } from "react";
-import { View, Text } from "react-native";
+import { View, Text, useWindowDimensions } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import Animated, { Extrapolation, interpolate, SharedValue, useAnimatedStyle, useDerivedValue, useSharedValue } from "react-native-reanimated";
 
@@ -19,8 +19,10 @@ const LONG_PARAGRAPH = 520;
 const NORMAL_PAD = { top: spacing.xxl + spacing.md, bottom: spacing.xl };
 const TIGHT_PAD = { top: spacing.xl, bottom: spacing.lg };
 const SECTION_GAP = spacing.sm + 2;
-// Sforo massimo (punti) oltre la schermata che la versione compatta può assorbire.
-const TIGHT_MAX_OVERFLOW = 120;
+// Corpo compatto e riduzione automatica: il testo scende al massimo a ~14 pt
+// (MIN_SHRINK × TIGHT_FONT), a passi piccoli, prima di ammettere una seconda schermata.
+const TIGHT_FONT = 16.5, TIGHT_LH = 27;
+const MIN_SHRINK = 0.85, SHRINK_STEP = 0.02;
 // Intestazione del capitolo: spazio sopra all'occhiello (dove sta il numero in
 // filigrana), altezza dell'occhiello, distanza occhiello → titolo, corpo del titolo.
 const HEAD_TOP = spacing.xxl, HEAD_TOP_TIGHT = spacing.md;
@@ -36,6 +38,14 @@ const TEASER_TITLE_Y = TEASER_EYEBROW_Y + EYEBROW_LH + spacing.xs;
 // Spazio fra l'anticipazione e il fondo della schermata (fa da padding inferiore).
 const LAND_PAD = spacing.xl;
 const teaserHeight = (titleH: number) => { "worklet"; return TEASER_TITLE_Y + titleH * TEASER_SCALE; };
+// Spazio da lasciare libero in fondo alla schermata per l'anticipazione del
+// capitolo seguente (stimato dalla lunghezza del suo titolo, ~0,58 em a carattere).
+const TITLE_LH = 37;
+function teaserReserve(nextTitle: string, textW: number): number {
+  const perLine = Math.max(8, Math.floor(textW / (TITLE_FONT * 0.58)));
+  const lines = Math.max(1, Math.ceil(stripStepPrefix(nextTitle).length / perLine));
+  return LAND_PAD + teaserHeight(lines * TITLE_LH);
+}
 
 /** Quote dello scroll che guidano la trasformazione anticipazione → intestazione. */
 export type ChapterTrack = {
@@ -46,6 +56,8 @@ export type ChapterTrack = {
   pageH: SharedValue<number>;
   /** Fondo della barra: le sezioni si allineano qui (+ spacing.sm). */
   headerBottom: number;
+  /** Per indice: l'anticipazione di questa intestazione è nascosta (non c'era spazio nella schermata prima). */
+  teaserHidden: SharedValue<Record<number, boolean>>;
 };
 
 // Solo presentazione: il testo resta identico, ma un capitolo molto lungo
@@ -109,6 +121,7 @@ export function ChapterSection({ chapter, story, eyebrow, next, minHeight, pageO
 }) {
   const styles = useStyles();
   const { colors } = useTheme();
+  const { width: winW } = useWindowDimensions();
   // Un solo colore per tutti i capitoli di tutte le storie: l'accento del tema
   // corrente dell'app (base = cyan), mai la categoria della storia.
   const tint = colors.brand;
@@ -118,10 +131,16 @@ export function ChapterSection({ chapter, story, eyebrow, next, minHeight, pageO
   // nuova — mai la stessa intestazione due volte di seguito.
   // L'anticipazione si misura a layout (non si stima): così una schermata in
   // più compare solo quando il testo davvero non ci sta, mai per pochi punti.
-  // Se sfora di poco, prima si prova la versione compatta (spazi e interlinea
-  // ridotti): solo se non basta il capitolo prende una schermata in più.
+  // Se sfora, prima si prova la versione compatta (spazi e interlinea
+  // ridotti), poi il corpo si riduce leggermente quanto basta: solo se non
+  // basta il capitolo prende una schermata in più.
   const [contentH, setContentH] = useState(0);
+  const [bodyH, setBodyH] = useState(0);
   const [tight, setTight] = useState(false);
+  // Adattamento automatico: se anche la versione compatta sfora, il corpo si
+  // riduce di quel tanto che basta (mai sotto MIN_SHRINK); solo oltre quel
+  // limite il capitolo prende una seconda schermata.
+  const [shrink, setShrink] = useState(1);
   const pad = tight ? TIGHT_PAD : NORMAL_PAD;
   // L'anticipazione del capitolo seguente è un livello che "galleggia" in fondo
   // (l'intestazione del prossimo capitolo, ridotta): NON occupa spazio nel
@@ -130,20 +149,41 @@ export function ChapterSection({ chapter, story, eyebrow, next, minHeight, pageO
   // seconda schermata mezza vuota.
   const readH = pad.top + contentH + pad.bottom;
   const measured = contentH > 0;
-  const overflow = minHeight && measured ? readH - minHeight : 0;
-  useEffect(() => { setTight(false); }, [minHeight]);
+  // Il testo deve finire sopra l'anticipazione: la schermata utile è ridotta
+  // dello spazio che quella occupa in fondo.
+  const textW = Math.min(winW, READER_MAX_W) - spacing.xl * 2;
+  const fitH = minHeight ? minHeight - (next ? teaserReserve(next.title, textW) : 0) : 0;
+  const overflow = minHeight && measured ? readH - fitH : 0;
+  useEffect(() => { setTight(false); setShrink(1); }, [minHeight]);
   useEffect(() => {
-    if (!tight && overflow > 0 && overflow <= TIGHT_MAX_OVERFLOW) setTight(true);
-  }, [tight, overflow]);
-  const pages = minHeight && measured ? Math.max(1, Math.ceil((readH - pageOverlap) / (minHeight - pageOverlap))) : 1;
+    if (overflow <= 0) return;
+    if (!tight) { setTight(true); return; }
+    if (shrink <= MIN_SHRINK || bodyH <= 0) return;
+    // Prima stima dalla geometria (il corpo deve perdere `overflow` punti), poi
+    // piccoli passi finché la misura reale non rientra.
+    const guess = shrink === 1 ? (bodyH - overflow) / bodyH : shrink - SHRINK_STEP;
+    setShrink(Math.max(MIN_SHRINK, Math.min(shrink - SHRINK_STEP, guess)));
+  }, [tight, overflow, shrink, bodyH]);
+  const canShrink = tight && shrink > MIN_SHRINK;
+  // Ridotto al minimo e ancora in conflitto con la sola anticipazione (il
+  // testo di per sé sta nella schermata): meglio rinunciare all'anticipazione
+  // che aprire una seconda schermata quasi vuota.
+  const dropTeaser = !!next && !canShrink && overflow > 0 && minHeight !== undefined && readH <= minHeight;
+  useEffect(() => {
+    const cur = track.teaserHidden.value;
+    if (!!cur[index + 1] !== dropTeaser) track.teaserHidden.value = { ...cur, [index + 1]: dropTeaser };
+  }, [dropTeaser, index, track.teaserHidden]);
+  const pages = minHeight && measured && !canShrink && overflow > 0 && !dropTeaser
+    ? Math.max(2, Math.ceil((readH - pageOverlap) / (minHeight - pageOverlap))) : 1;
   const sectionH = minHeight ? pages * minHeight - (pages - 1) * pageOverlap : undefined;
+  const bodyScale = tight ? { fontSize: TIGHT_FONT * shrink, lineHeight: TIGHT_LH * shrink } : null;
   return (
     <View style={[styles.section, { paddingTop: pad.top, paddingBottom: pad.bottom }, sectionH ? { minHeight: sectionH } : null]} testID={`deep-dive-chapter-${chapter.number}`}>
       <View style={styles.content} onLayout={(e) => { const h = Math.ceil(e.nativeEvent.layout.height); if (h !== contentH) setContentH(h); }}>
       <ChapterHeading chapter={chapter} story={story} eyebrow={eyebrow} tint={tint} tight={tight} padTop={pad.top} index={index} track={track} />
-      <View style={[styles.body, tight && styles.bodyTight]}>
+      <View style={[styles.body, tight && styles.bodyTight]} onLayout={(e) => { const h = Math.ceil(e.nativeEvent.layout.height); if (h !== bodyH) setBodyH(h); }}>
         {splitParagraphs(chapter.body).map((p, i) => (
-          <Text key={i} style={[styles.paragraph, tight && styles.paragraphTight]}>{p}</Text>
+          <Text key={i} style={[styles.paragraph, tight && styles.paragraphTight, bodyScale]}>{p}</Text>
         ))}
       </View>
       </View>
@@ -164,7 +204,7 @@ function ChapterHeading({ chapter, story, eyebrow, tint, tight, padTop, index, t
   const headTop = tight ? HEAD_TOP_TIGHT : HEAD_TOP;
   const gap = tight ? EYEBROW_GAP_TIGHT : EYEBROW_GAP;
   const titleH = useSharedValue(0);
-  const { scrollY, tops, pageH, headerBottom } = track;
+  const { scrollY, tops, pageH, headerBottom, teaserHidden } = track;
   // 0 = anticipazione (la schermata precedente è allineata sotto la barra),
   // 1 = intestazione (questa sezione è allineata). Il primo capitolo nasce già intestazione.
   const p = useDerivedValue(() => {
@@ -177,15 +217,17 @@ function ChapterHeading({ chapter, story, eyebrow, tint, tight, padTop, index, t
   const groupStyle = useAnimatedStyle(() => ({
     transform: [{ translateY: -(padTop + LAND_PAD + teaserHeight(titleH.value)) * (1 - p.value) }],
   }));
+  // Anticipazione nascosta: l'intestazione resta invisibile finché non è quasi al suo posto.
+  const vis = useDerivedValue(() => (teaserHidden.value[index] ? interpolate(p.value, [0.8, 1], [0, 1], Extrapolation.CLAMP) : 1));
   const numberStyle = useAnimatedStyle(() => ({ opacity: p.value }));
-  const dividerStyle = useAnimatedStyle(() => ({ opacity: 1 - p.value }));
+  const dividerStyle = useAnimatedStyle(() => ({ opacity: (1 - p.value) * vis.value }));
   const eyebrowStyle = useAnimatedStyle(() => ({
-    opacity: 0.6 + 0.4 * p.value,
+    opacity: (0.6 + 0.4 * p.value) * vis.value,
     transform: [{ translateY: (TEASER_EYEBROW_Y - headTop) * (1 - p.value) }],
   }));
   const eyebrowNumberStyle = useAnimatedStyle(() => ({ opacity: 1 - p.value }));
   const titleStyle = useAnimatedStyle(() => ({
-    opacity: 0.5 + 0.5 * p.value,
+    opacity: (0.5 + 0.5 * p.value) * vis.value,
     transform: [
       { translateY: (TEASER_TITLE_Y - (headTop + EYEBROW_LH + gap)) * (1 - p.value) },
       { scale: TEASER_SCALE + (1 - TEASER_SCALE) * p.value },
@@ -242,7 +284,7 @@ const useStyles = makeStyles((colors) => ({
   eyebrowNumber: { marginLeft: 7 },
   titleWrap: { transformOrigin: "left top" },
   title: {
-    color: colors.textWarm, fontFamily: typography.displayBold, fontSize: TITLE_FONT, lineHeight: 37, letterSpacing: -0.7,
+    color: colors.textWarm, fontFamily: typography.displayBold, fontSize: TITLE_FONT, lineHeight: TITLE_LH, letterSpacing: -0.7,
   },
   content: { gap: spacing.sm + 2 },
   body: { gap: spacing.md + 2, marginTop: spacing.sm },
@@ -254,5 +296,5 @@ const useStyles = makeStyles((colors) => ({
   // elementi, spazi e interlinea ridotti, così resta su una schermata sola.
   bigNumberTight: { top: -spacing.md, fontSize: 76, lineHeight: 80, letterSpacing: -3 },
   bodyTight: { gap: spacing.sm + 2, marginTop: spacing.xs },
-  paragraphTight: { fontSize: 16.5, lineHeight: 27 },
+  paragraphTight: { fontSize: TIGHT_FONT, lineHeight: TIGHT_LH },
 }));

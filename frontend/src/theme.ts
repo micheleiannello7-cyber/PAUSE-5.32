@@ -218,12 +218,16 @@ export const summaryGradient: [string, string] = ["#003BFF", "#FF6D00"];
 export const spacing = { xs: 4, sm: 8, md: 12, lg: 16, xl: 24, xxl: 32, xxxl: 48 };
 export const radius = { sm: 6, md: 12, lg: 20, pill: 999 };
 
+// Scala tipografica: una sola famiglia (Plus Jakarta Sans), pesi distinti per
+// ruolo. Titoli di schermata → displayHero; titoli di sezione/capitolo →
+// displayBold; corpo delle storie → body (Regular, mai pesante).
 export const typography = {
-  display: "Sora_600SemiBold",
-  displayBold: "Sora_700Bold",
-  body: "Manrope_400Regular",
-  bodyMedium: "Manrope_500Medium",
-  bodyBold: "Manrope_600SemiBold",
+  displayHero: "PlusJakartaSans_800ExtraBold",
+  display: "PlusJakartaSans_600SemiBold",
+  displayBold: "PlusJakartaSans_700Bold",
+  body: "PlusJakartaSans_400Regular",
+  bodyMedium: "PlusJakartaSans_500Medium",
+  bodyBold: "PlusJakartaSans_600SemiBold",
 };
 
 // User reference: cinematic category tiles stay dark in both app themes.

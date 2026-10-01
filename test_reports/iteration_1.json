@@ -1,0 +1,29 @@
+{
+  "summary": "Frontend-only validation of two PAUSE changes: (1) Plus Jakarta Sans typography adoption and (2) reader single-screen chapter layout with teaser handling. All six chapters of the target story (v8-lez-how-revolutions-start-the-ingredients-that-repeat) render in a single screen at both 390x844 and 375x667 viewports; mouse-wheel navigation advances exactly one chapter per gesture; no runtime errors; fonts load correctly (computed font-family resolves to 'PlusJakartaSans_*' across all tested surfaces including onboarding, bottom tabs, reader headings and body). Only non-blocking warnings observed (RN web deprecations: textShadow/pointerEvents, and a reanimated easing fallback on web).",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": [
+      {"screen": "deep-dive reader", "issues": ["Reanimated: 'Selected easing is not currently supported on web. Using linear easing instead.' — the custom cubic easing used by the slow autofocus scroll (SCROLL_EASING = Easing.inOut(Easing.cubic)) silently falls back to linear on web. Behaviour is still correct but the paced-scroll feel is lost in the web preview. Low priority / web-only."]}
+    ],
+    "react_native_issues": [
+      {"component": "RN web deprecation warnings", "issue": "'textShadow*' style props are deprecated (use 'textShadow'); 'props.pointerEvents is deprecated. Use style.pointerEvents'. Appears repeatedly in the console but has no functional impact. Not an Expo-related deprecation listed in the testing playbook — only RN-web style-prop migration noise."}
+    ]
+  },
+  "test_report_links": [],
+  "action_items": [
+    "No code changes required for this iteration — both features are working as intended. Optional cleanup: migrate any remaining `textShadowOffset/textShadowColor/textShadowRadius` and `pointerEvents` component props to the new APIs to clear console warnings on RN-web."
+  ],
+  "critical_code_review_comments": [
+    "src/components/reader-section.tsx: shrink loop (useEffect on overflow) depends on `bodyH` which is updated by onLayout — on web onLayout can fire late, so the first render may show the pre-shrink layout briefly before stabilising. Measured during testing it still converged within the normal paint cycle; not a blocker.",
+    "app/deep-dive/[id].tsx: `teaserHidden` is read by every ChapterHeading via useDerivedValue — correct and efficient on Reanimated 3; verified no stale-value flashes when switching the hidden flag between chapters."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "n/a (skipped per request)", "frontend": "100%"},
+  "seed_data_creation": "None — used existing seeded guest flow and existing story v8-lez-how-revolutions-start-the-ingredients-that-repeat.",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "Reader page uses custom mouse-wheel paging (step() in app/deep-dive/[id].tsx). Use `await page.mouse.wheel(0, 700)` with ~1.5s waits between calls to advance exactly one chapter. Section heights are measured via `[data-testid=\"deep-dive-chapter-N\"]`.getBoundingClientRect(). Expected height = viewportH - headerBottom (≈780 at 390x844, ≈603 at 375x667). Teaser overlap must be checked by comparing innermost text node bottoms vs the section bottom.",
+  "rca_of_issue": "N/A — no regressions found. Validation results per viewport:\n\n390x844 (headerBottom=62, section bottom should be ≤ 836):\n- ch1 h=780 top=56 bottom=836 bodyBottom=511\n- ch2 h=780 top=56 bottom=836 bodyBottom=519\n- ch3 h=780 top=56 bottom=836 bodyBottom=558\n- ch4 h=780 top=56 bottom=836 bodyBottom=609\n- ch5 h=780 top=56 bottom=836 bodyBottom=558\n- ch6 h=780 top=56 bottom=836 bodyBottom=654\nAll body bottoms are well below the teaser area (y≈745+) → no overlap at this viewport; teaser is shown and compact-mode / shrink are not needed.\n\n375x667 (headerBottom=62, section bottom should be ≤ 659):\n- ch1 h=603 top=56 bottom=659 bodyBottom=498\n- ch2 h=603 top=56 bottom=659 bodyBottom=558\n- ch3 h=603 top=56 bottom=659 bodyBottom=558\n- ch4 h=603 top=56 bottom=659 bodyBottom=475\n- ch5 h=603 top=56 bottom=659 bodyBottom=581\n- ch6 h=603 top=56 bottom=659 bodyBottom=581\nEvery chapter is exactly one screen tall and body fits within the available area. Where body approaches the teaser zone the component correctly hides the teaser (per `teaserHidden` shared value) — none of the chapters span 2 pages.\n\nNormal story flow (v5-quarantena-venezia) opened from Home card verified: intro screen (cover + title + hook + 'Scroll to begin') renders correctly, first chapter heading shows eyebrow 'CHAPTER', faded big number '01', and title 'Trenta giorni a Ragusa'.\n\nFonts: Direct getComputedStyle checks of 'Continue as guest', bottom-tab labels (Home/Topics/Saved/Profile), onboarding titles and reader paragraphs all resolve to PlusJakartaSans_<weight>_* families — the custom fonts bundled via src/utils/fonts.ts are applied everywhere typography.* is referenced in theme.ts."
+}

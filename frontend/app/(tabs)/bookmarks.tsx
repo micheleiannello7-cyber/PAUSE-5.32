@@ -262,7 +262,7 @@ const styles = StyleSheet.create({
     width: 32, height: 32, borderRadius: 16, alignItems: "center", justifyContent: "center",
     backgroundColor: colors.brand + "18", borderWidth: 1, borderColor: colors.brand + "40",
   },
-  title: { color: colors.onSurface, fontFamily: typography.displayBold, fontSize: 28, lineHeight: 34 },
+  title: { color: colors.onSurface, fontFamily: typography.displayHero, fontSize: 28, lineHeight: 34 },
   subtitle: { color: colors.muted, fontFamily: typography.body, fontSize: 13, marginLeft: 40 },
   loading: { flex: 1, alignItems: "center", justifyContent: "center" },
   searchWrap: {

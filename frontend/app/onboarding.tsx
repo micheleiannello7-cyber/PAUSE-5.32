@@ -259,7 +259,7 @@ const useStyles = makeStyles((colors) => ({
   content: { paddingHorizontal: spacing.xl, paddingTop: spacing.lg, paddingBottom: spacing.lg },
   contentCentered: { flexGrow: 1, justifyContent: "center", paddingBottom: spacing.xxxl },
   stepTitle: {
-    color: ONB.text, fontFamily: typography.displayBold, fontSize: 28, lineHeight: 34, marginBottom: spacing.lg,
+    color: ONB.text, fontFamily: typography.displayHero, fontSize: 28, lineHeight: 34, marginBottom: spacing.lg,
     textShadowColor: "rgba(55,211,255,0.25)", textShadowOffset: { width: 0, height: 0 }, textShadowRadius: 18,
   },
   dots: { alignSelf: "center", marginBottom: spacing.sm + 2 },

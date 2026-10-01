@@ -32,5 +32,15 @@ PAUSE è un'app mobile (Expo/React Native + FastAPI + MongoDB) di micro-apprendi
 - P1: Attivazione opzionale Stripe per premium/abbonamenti su richiesta con chiave utente.
 - P2: Generazione nuove copertine/contenuti via pipeline esistente (richiede credito Universal Key).
 
+## Tipografia (2026-10-01)
+- Unico font: **Plus Jakarta Sans** (TTF in `frontend/assets/fonts`, 5 pesi) via `src/utils/fonts.ts` + `theme.ts/typography`
+  (displayHero=ExtraBold titoli schermata, displayBold=Bold sezioni/capitoli, display=SemiBold, body=Regular, bodyMedium, bodyBold=SemiBold).
+
+## Lettore: un capitolo = una schermata (2026-10-01)
+- `reader-section.tsx`: compatto → riduzione automatica del corpo (min 85% di 16,5pt) → se il testo sta ma collide con l'anticipazione,
+  l'anticipazione viene nascosta (`ChapterTrack.teaserHidden`) → solo altrimenti 2 pagine.
+- Backend: `fit_chapters.py` (GPT-5.4) snellisce i capitoli > 500 caratteri (IT+EN); salva in `chapter_fit_overrides.json`,
+  riapplicato da `ensure_seed` (`chapter_fit.apply_fit_overrides`). Backup in `stories_backup_pre_fit`.
+
 ## Next Tasks
-- In attesa di nuove richieste dell'utente (feature o fix).
+- Eseguire `python fit_chapters.py` appena la Universal Key ha credito (726 capitoli in 230 narrazioni; stima 5–10 $).

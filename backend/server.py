@@ -400,6 +400,13 @@ async def ensure_seed():
         logger.info("6-chapter normalization: %s", await apply_v6(db))
     except Exception as e:  # noqa: BLE001
         logger.warning("6-chapter normalization failed: %s", e)
+    # Capitoli snelliti per stare in una schermata (fit_chapters.py): il file
+    # di override vince sempre sul testo lungo dei seed.
+    try:
+        from chapter_fit import apply_fit_overrides
+        logger.info("chapter fit overrides: %s", await apply_fit_overrides(db))
+    except Exception as e:  # noqa: BLE001
+        logger.warning("chapter fit overrides failed: %s", e)
     # Precompute audio_minutes_est per ogni storia dopo la normalizzazione dei
     # capitoli, così i list endpoint (che escludono `chapters` dalla projection)
     # trovano il valore corretto senza dover ricaricare tutto il doc.

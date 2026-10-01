@@ -293,7 +293,7 @@ const useStyles = makeStyles((colors) => ({
     backgroundColor: withAlpha(colors.brand, 0.1), borderWidth: 1, borderColor: withAlpha(colors.brand, 0.27),
   },
   pillText: { color: colors.brand, fontFamily: typography.bodyBold, fontSize: 10, letterSpacing: 1.6 },
-  title: { color: colors.onSurface, fontFamily: typography.displayBold, fontSize: 30, lineHeight: 36, marginTop: spacing.md },
+  title: { color: colors.onSurface, fontFamily: typography.displayHero, fontSize: 30, lineHeight: 36, marginTop: spacing.md },
   claimRow: { flexDirection: "row", alignItems: "flex-end", gap: 4, marginTop: spacing.md },
   claimPrice: { color: colors.brand, fontFamily: typography.displayBold, fontSize: 44, lineHeight: 48, letterSpacing: -1 },
   claimUnit: { color: colors.onSurfaceSecondary, fontFamily: typography.bodyBold, fontSize: 18, lineHeight: 34 },

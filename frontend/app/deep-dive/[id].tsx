@@ -243,7 +243,10 @@ export default function DeepDive() {
   }, [jumpTo]);
   // Quote per l'intestazione dei capitoli, che nasce come anticipazione in fondo
   // alla schermata precedente e si posa al suo posto seguendo lo scroll.
-  const chapterTrack = useMemo<ChapterTrack>(() => ({ scrollY, tops: topsSV, pageH: pageHSV, headerBottom }), [scrollY, topsSV, pageHSV, headerBottom]);
+  // `teaserHidden[i]`: il capitolo i-1 ha deciso che la sua anticipazione non
+  // ci sta (telefoni bassi): l'intestazione i compare solo quando si posa.
+  const teaserHiddenSV = useSharedValue<Record<number, boolean>>({});
+  const chapterTrack = useMemo<ChapterTrack>(() => ({ scrollY, tops: topsSV, pageH: pageHSV, headerBottom, teaserHidden: teaserHiddenSV }), [scrollY, topsSV, pageHSV, headerBottom, teaserHiddenSV]);
 
   // Lettura a capitoli: lo scorrimento libero è disattivato. Ogni gesto
   // verticale porta esattamente alla sezione successiva o precedente

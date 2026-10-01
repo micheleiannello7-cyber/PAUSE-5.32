@@ -29,9 +29,9 @@ export function TopicPicker({ categories, selected, modes, onToggleCategory, onT
   const { t } = useI18n();
   const formats = modes.size === 2 ? t.onb_formats_both : modes.has("lessons") ? t.onb_formats_lessons : t.onb_formats_stories;
   // Titolo su una sola riga: il corpo segue la larghezza disponibile accanto
-  // all'accessorio (Sora Bold ≈ 0,56 em per carattere).
+  // all'accessorio (Plus Jakarta Sans ExtraBold ≈ 0,6 em per carattere).
   const [titleW, setTitleW] = useState(0);
-  const titleSize = titleW > 0 ? Math.max(15, Math.min(24, Math.floor(titleW / (t.onb_title.length * 0.56)))) : 20;
+  const titleSize = titleW > 0 ? Math.max(15, Math.min(24, Math.floor(titleW / (t.onb_title.length * 0.6)))) : 20;
   // Altezza rimasta per la griglia (solo in modalità schermo intero).
   const [gridH, setGridH] = useState(0);
   const gap = fit ? styles.gapFit : styles.gap;
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
   gridFit: { flex: 1, minHeight: 0 },
   titleRow: { flexDirection: "row", alignItems: "center", gap: spacing.sm },
   titleBox: { flex: 1, minWidth: 0 },
-  title: { color: ONB.text, fontFamily: typography.displayBold, fontSize: 28, lineHeight: 34, letterSpacing: -0.3,
+  title: { color: ONB.text, fontFamily: typography.displayHero, fontSize: 28, lineHeight: 34, letterSpacing: -0.3,
     textShadowColor: withAlpha(ONB.cyan, 0.25), textShadowOffset: { width: 0, height: 0 }, textShadowRadius: 18 },
   hintCard: { padding: spacing.md, gap: spacing.sm + 2,
     borderRadius: radius.lg, backgroundColor: "rgba(12,26,58,0.65)",

@@ -254,7 +254,7 @@ const styles = StyleSheet.create({
   pillText: { color: colors.onSurface, fontFamily: typography.bodyBold, fontSize: 13 },
   titleWrap: { paddingHorizontal: spacing.xl, paddingBottom: spacing.xxl },
   titleWhite: {
-    color: colors.onSurface, fontFamily: typography.displayBold,
+    color: colors.onSurface, fontFamily: typography.displayHero,
     fontSize: 32, lineHeight: 38,
   },
   cards: { paddingHorizontal: spacing.xl, marginTop: -spacing.md, gap: spacing.md },
