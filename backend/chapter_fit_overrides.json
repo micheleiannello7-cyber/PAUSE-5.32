@@ -1,0 +1,741 @@
+{
+ "egyptian-pyramids": {
+  "it": {
+   "5": "Le domande aperte sono più affascinanti delle risposte. Nel 2017 i fisici hanno rilevato, misurando le particelle cosmiche che attraversano la pietra, un grande vuoto lungo trenta metri sopra la Grande Galleria: nessuno sa a cosa servisse. Non abbiamo trovato la mummia di Cheope, né un testo egizio che spieghi come fu organizzato il cantiere. Sappiamo però che i blocchi esterni erano di calcare bianco lucidato e brillavano al sole come uno specchio, visibile a decine di chilometri."
+  }
+ },
+ "exoplanets-basics": {
+  "en": {
+   "5": "The galaxy has more imagination than we do. There are planets orbiting two stars, like Tatooine; gas giants so close to their star they orbit in hours, with temperatures of 2,000 degrees and rains of molten iron; planets possibly made of diamond; and rogue worlds expelled from their systems, wandering alone in the dark. The TRAPPIST-1 system has seven Earth-sized planets around a dwarf star, three in the habitable zone, 40 light-years away: one of the most promising places to look for life."
+  },
+  "it": {
+   "5": "La galassia ha più immaginazione di noi. Esistono pianeti attorno a due stelle, come Tatooine; giganti gassosi così vicini alla loro stella da fare un giro in poche ore, con 2.000 gradi e piogge di ferro fuso; pianeti forse di diamante; mondi erranti, espulsi dal loro sistema, soli nel buio. Il sistema TRAPPIST-1 ha sette pianeti di taglia terrestre attorno a una stella nana, tre nella zona abitabile, a 40 anni luce da noi: è uno dei luoghi più promettenti per cercare la vita."
+  }
+ },
+ "french-revolution": {
+  "it": {
+   "5": "Molto di ciò che consideri normale nasce in quegli anni. Il sistema metrico decimale, con metro e chilogrammo, sostituì le centinaia di misure locali. La Rivoluzione lasciò anche la leva militare di massa, il matrimonio civile, lo stato laico e l’idea che la sovranità appartenga alla nazione, non a un re. Perfino 'destra' e 'sinistra' in politica vengono dai posti nell’Assemblea del 1789."
+  }
+ },
+ "how-3d-printing": {
+  "it": {
+   "5": "Le stampanti più grandi non stanno su un tavolo: sono bracci robotici che depositano cemento. Ad Amsterdam un ponte pedonale in acciaio è stato stampato da robot; in Messico e in Texas quartieri di case sono sorti in pochi giorni con muri estrusi strato dopo strato, poi completati con tetto e finestre tradizionali. La NASA sperimenta l’uso della polvere lunare per costruire ripari senza portare mattoni dalla Terra. L’idea resta quella del piccolo oggetto in plastica: aggiungere, non togliere."
+  }
+ },
+ "how-ai-learns": {
+  "en": {
+   "5": "A language model does not consult a store of facts: it generates the most probable next word from the previous ones. Ask it for a quote or an obscure date and it may produce something with the right shape even if it does not exist. These so-called hallucinations come from the method itself: it was rewarded for being convincing, not true. That is why newer versions are connected to search engines and ask you to check the sources."
+  }
+ },
+ "how-batteries-work": {
+  "it": {
+   "5": "Ogni ciclo di carica e scarica lascia una traccia. Gli ioni di litio, andando avanti e indietro tra gli elettrodi, depositano una pellicola microscopica che col tempo si ispessisce e ruba spazio alla reazione utile; qualche ione resta intrappolato e non torna più in gioco. Dopo circa 500 cicli completi una batteria di telefono conserva l'80% della capacità originale. Il calore accelera tutto: a 40 gradi invecchia il doppio. Non è un difetto di fabbrica: è chimica."
+  }
+ },
+ "how-encryption-works": {
+  "it": {
+   "5": "La stessa idea protegge ogni sito con il lucchetto accanto all'indirizzo. Quando apri la pagina della banca, browser e server si scambiano chiavi pubbliche e in pochi millisecondi costruiscono una chiave segreta condivisa che nessuno lungo il percorso può ricostruire. Da quel momento tutto ciò che digiti viaggia cifrato. Ecco perché i browser avvertono se un sito è ancora in chiaro: sulla stessa rete Wi-Fi, al bar o in aeroporto, chiunque potrebbe leggere ciò che scrivi come su una cartolina."
+  }
+ },
+ "how-gps-works": {
+  "it": {
+   "5": "Il GPS funziona alla perfezione in campo aperto, ma tra i palazzi il segnale rimbalza sulle facciate di vetro e cemento prima di arrivare al telefono: il ricevitore misura un percorso più lungo del reale e ti piazza sul marciapiede sbagliato. Per questo le mappe lo combinano con antenne Wi-Fi note, celle telefoniche, accelerometro e bussola. In galleria, senza cielo, il telefono tira a indovinare da velocità e direzione dell'ultimo punto noto."
+  }
+ },
+ "how-internet-works": {
+  "it": {
+   "5": "Nessuno, e insieme moltissimi. I cavi appartengono a consorzi di operatori e sempre più spesso a Google, Meta, Amazon e Microsoft; i grandi snodi sono edifici anonimi in periferia e i protocolli li scrivono gruppi di ingegneri volontari. Proprio questa assenza di un padrone rende internet resistente: se un cavo si rompe, circa cento volte all'anno per ancore e terremoti, i pacchetti trovano un'altra strada in pochi millisecondi."
+  }
+ },
+ "how-oled-works": {
+  "en": {
+   "1": "In LCD screens (Liquid Crystal Display), the pixels do not create light. Behind the screen there is a white lamp, usually made of LEDs, always on. Each pixel is a tiny molecular blind that lets more or less light through, with a coloured filter in front of it (red, green or blue). But because the lamp is always on, black still leaks light, so LCD black is really dark grey."
+  },
+  "it": {
+   "1": "Negli schermi LCD (Liquid Crystal Display), la luce non la creano i pixel. Dietro c'è una lampada bianca, di solito a LED, sempre accesa; ogni pixel fa da piccola \"veneziana\" molecolare che lascia passare più o meno luce, poi un filtro rosso, verde o blu crea il colore. Ma la lampada resta sempre accesa: anche col nero un po' di luce filtra, quindi il nero LCD è un grigio scuro."
+  }
+ },
+ "how-stars-die": {
+  "it": {
+   "5": "Il nostro Sole seguirà la via delle stelle piccole. Tra circa cinque miliardi di anni, esaurito l’idrogeno nel nucleo, si gonfierà in una gigante rossa cento volte più grande, inghiottendo Mercurio e Venere e rendendo la Terra una roccia arroventata. Molto prima, tra un miliardo di anni, la sua luminosità crescente avrà già fatto evaporare gli oceani."
+  }
+ },
+ "how-trees-live": {
+  "it": {
+   "5": "In Svezia un abete rosso chiamato Old Tjikko ha radici di 9.550 anni: il tronco che vedi ha poche centinaia di anni, ma l’apparato radicale continua a produrre nuovi fusti da quando finì l’ultima glaciazione. In California i pini dai coni setolosi superano i 4.800 anni con un solo tronco contorto. E in Utah un bosco di pioppi tremuli, Pando, è un unico individuo di 47.000 fusti collegati dalle radici, forse vecchio di decine di migliaia di anni. Un albero può essere più antico di ogni civiltà."
+  }
+ },
+ "memory-basics": {
+  "it": {
+   "5": "La memoria non solo dimentica: inventa. Negli esperimenti di Elizabeth Loftus, bastava suggerire con una domanda un dettaglio inesistente per far “ricordare” ai testimoni un fienile che non c’era; con un po’ di insistenza, un quarto dei volontari costruiva il ricordo completo di essersi perso in un centro commerciale da bambino, un episodio mai accaduto. Per questo un ricordo vivido e sicuro non è per forza vero."
+  }
+ },
+ "printing-press": {
+  "it": {
+   "5": "L'uomo che cambiò il mondo non ci guadagnò nulla. Gutenberg si era indebitato con il finanziere Johann Fust per costruire l'officina; nel 1455, mentre le prime Bibbie uscivano dalla pressa, Fust lo citò in giudizio, vinse e si prese attrezzatura e libri. Gutenberg morì nel 1468, quasi dimenticato, con una piccola pensione dell'arcivescovo di Magonza."
+  }
+ },
+ "quantum-basics": {
+  "it": {
+   "5": "L'esperimento mentale più famoso della fisica nacque per mostrare quanto la teoria fosse assurda. Schrödinger immaginò un gatto in una scatola con un atomo radioattivo che, decadendo, libera un veleno: finché nessuno apre, l'atomo è in sovrapposizione di decaduto e non decaduto, e il gatto dovrebbe essere vivo e morto insieme. Oggi sappiamo che gli oggetti grandi perdono quasi subito la sovrapposizione interagendo con l'ambiente: è la decoerenza, nemico principale dei computer quantistici."
+  }
+ },
+ "v4-cavi-sottomarini": {
+  "it": {
+   "5": "Quando un cavo si rompe, una nave specializzata parte da uno dei porti di stazionamento sparsi nel mondo. Localizza il guasto misurando il tempo che un impulso di luce impiega a tornare indietro, poi cala un rampino che aggancia il cavo a chilometri di profondità e lo porta in superficie. A bordo i tecnici saldano le fibre sotto un microscopio. La riparazione dura da pochi giorni a settimane, e intanto il traffico passa sugli altri cavi."
+  }
+ },
+ "v4-cleopatra-piramidi": {
+  "it": {
+   "4": "Per capire la distanza, prova così: fra noi e Cleopatra passano circa 2.050 anni; fra Cleopatra e la Grande Piramide 2.500. Quando lei saliva al trono, la civiltà che aveva costruito le piramidi era più lontana nel tempo di quanto lo siano per noi i Romani. E gli egizi già restauravano monumenti antichi: Khaemweset, figlio di Ramesse II, intorno al 1250 a.C. fece incidere sulle piramidi i nomi dei costruttori perché si stavano dimenticando. Era un archeologo, 3.200 anni fa."
+  }
+ },
+ "v4-fascia-asteroidi": {
+  "it": {
+   "4": "La fascia non è del tutto tranquilla: collisioni tra asteroidi e influenza di Giove ne spingono ogni tanto alcuni verso il Sistema Solare interno. Uno, largo dieci chilometri, colpì la Terra 66 milioni di anni fa e chiuse l’era dei dinosauri; nel 2013 un frammento di venti metri esplose su Chelyabinsk, ferendo 1.500 persone. Per questo NASA ed ESA catalogano oltre 35.000 asteroidi vicini alla Terra, e nessuno di grandi dimensioni è in rotta di collisione nei prossimi cento anni."
+  }
+ },
+ "v4-ghiaccio-galleggia": {
+  "it": {
+   "4": "La stessa espansione che fa galleggiare il ghiaccio distrugge le montagne. L'acqua entra nelle fessure delle rocce, di notte gela e aumenta di volume del 9%, allargando la crepa; il giorno dopo si scioglie, penetra più in profondità, e il ciclo ricomincia. È il crioclastismo, principale forma di erosione in alta montagna: le pietraie ai piedi delle pareti e anche tubature e vasi spaccati d'inverno ne sono il risultato."
+  }
+ },
+ "v4-gps": {
+  "it": {
+   "4": "La storia completa ha un colpo di scena. La velocità dei satelliti rallenta i loro orologi di circa 7 microsecondi al giorno, ma la gravità più debole a 20.000 chilometri li fa correre più veloci di 45 microsecondi. Il risultato netto è quell'anticipo di 38 microsecondi. Gli ingegneri, prima del lancio, regolano di proposito gli orologi a bordo su una frequenza leggermente sbagliata, così che una volta in orbita risultino esatti."
+  }
+ },
+ "v4-lez-batteria": {
+  "it": {
+   "4": "Meno di quanto si pensi. I caricatori veloci lavorano insieme al telefono: spingono forte solo nella prima metà, quando la batteria accetta energia senza scaldarsi troppo, poi rallentano. Il danno vero lo fa la combinazione di ricarica veloce e caldo: in auto sotto il parabrezza d'estate o giocando con lo schermo al massimo. Se è tiepido, va bene; se scotta, staccalo. Usa caricatori certificati: quelli scadenti non dialogano col telefono e possono superare i limiti di sicurezza."
+  }
+ },
+ "v4-lez-fonti-primarie": {
+  "it": {
+   "4": "Una fonte primaria è vicina ai fatti, ma non per questo è vera. Le lettere si scrivono sapendo chi le leggerà, i diari spesso per i posteri, le fotografie si scelgono e si tagliano. Le relazioni dei funzionari coloniali descrivono popoli 'felici e docili' perché chi le leggeva voleva sentirlo. La domanda giusta non è 'è primaria?' ma 'cosa poteva sapere questa persona, e cosa aveva interesse a dire?'. Anche un falso è prezioso: racconta cosa qualcuno voleva far credere."
+  }
+ },
+ "v4-lez-perche-cadono-imperi": {
+  "it": {
+   "4": "Ogni modello ha eccezioni istruttive. L'Impero romano d'Oriente, Bisanzio, sopravvisse mille anni alla caduta di Roma pur subendo tutti e quattro gli schemi: perse territori, svalutò la moneta, ebbe guerre civili e pestilenze. Resistette perché seppe restringersi in tempo e perché aveva una capitale imprendibile e una burocrazia che funzionava anche con imperatori pessimi. La lezione: durano gli imperi che sanno ritirarsi."
+  }
+ },
+ "v4-luna-stessa-faccia": {
+  "it": {
+   "4": "Nessun essere umano vide il lato nascosto della Luna fino al 7 ottobre 1959, quando la sonda sovietica Luna 3 lo fotografò e trasmise a Terra immagini sgranate ma rivoluzionarie. I sovietici battezzarono i nuovi crateri e mari con nomi russi, come il Mare di Mosca.",
+   "5": "La stessa forza che ha bloccato la Luna sta lavorando sulla Terra. L'attrito delle maree rallenta la rotazione del nostro pianeta di circa due millesimi di secondo per secolo: il giorno di un dinosauro durava 23 ore, quello dei primi organismi meno di 20. L'energia persa dalla Terra passa alla Luna, che si allontana di 3,8 centimetri l'anno, misurati con i laser riflessi dagli specchi lasciati dagli astronauti dell'Apollo. In un futuro remoto la Terra mostrerà alla Luna sempre la stessa faccia."
+  }
+ },
+ "v4-paradosso-scelta": {
+  "it": {
+   "4": "L'esperimento delle marmellate è famoso, ma non tutti gli studi successivi lo hanno confermato. Una revisione del 2010 su cinquanta esperimenti ha trovato che, in media, l'effetto del sovraccarico è vicino a zero: dipende dalle condizioni. Le troppe opzioni paralizzano quando sono difficili da confrontare, non hai preferenze chiare e la decisione è poco importante. Se sai bene cosa vuoi, più scelta è meglio. La lezione onesta è che conta meno la quantità delle opzioni della loro leggibilità."
+  }
+ },
+ "v4-touchscreen": {
+  "it": {
+   "5": "Se hai mai visto il telefono impazzire sotto la pioggia, ora sai perché: anche l'acqua conduce, e ogni goccia è un piccolo dito che ruba carica. I controller moderni cercano di riconoscere la forma e la stabilità di una goccia per ignorarla, ma non sempre ci riescono. Lo stesso vale per il palmo mentre scrivi: il software capisce il contatto intenzionale da dimensione, pressione stimata e movimento. Il touchscreen non sente il dito: interpreta indizi elettrici, e a volte sbaglia."
+  }
+ },
+ "v5-ancoraggio": {
+  "it": {
+   "4": "Si potrebbe pensare che la competenza protegga dall'ancoraggio. Non è così: in un esperimento, giudici tedeschi con quindici anni di esperienza hanno emesso pene più severe dopo aver lanciato un dado truccato con numeri alti; agenti immobiliari hanno valutato la stessa casa con differenze di decine di migliaia di euro in base al prezzo di partenza mostrato loro, pur negando di averlo considerato."
+  }
+ },
+ "v5-anno-senza-estate": {
+  "it": {
+   "5": "Il Tambora non è un caso unico. Nel 1991 il Pinatubo, nelle Filippine, abbassò la temperatura globale di mezzo grado per due anni con un'eruzione dieci volte più piccola. I vulcanologi stimano un'eruzione da 'anno senza estate' ogni due o tre secoli; oggi colpirebbe otto miliardi di persone con scorte di cibo per pochi mesi. Per questo alcuni scienziati studiano proprio l'aerosol in stratosfera come possibile, e controverso, strumento per raffreddare artificialmente il clima."
+  }
+ },
+ "v5-astronauti-alti": {
+  "it": {
+   "5": "Ciò che accade alla colonna vertebrale è uno degli ostacoli per i viaggi lunghi. Gli astronauti che tornano da sei mesi hanno nell'anno successivo un rischio di ernia del disco quattro volte più alto. Per un viaggio verso Marte di due o tre anni si studiano tute compressive che simulano il peso, esercizi mirati per i muscoli profondi della schiena e, in futuro, sezioni rotanti con gravità artificiale. Il corpo che si allunga nello spazio lo ricorda: siamo costruiti per la Terra."
+  }
+ },
+ "v5-bolle-sapone": {
+  "it": {
+   "4": "Il fenomeno si chiama interferenza a film sottile e lo vedi ovunque ci sia uno strato sottilissimo. Succede nella macchia d'olio sull'asfalto bagnato, nell'iridescenza della madreperla, nelle ali di una libellula, nei riflessi di un CD e nella pellicola di ossido su un acciaio scaldato. Non ci sono pigmenti: i colori nascono dalla geometria e cambiano se cambi angolo. Pavone e farfalle morpho usano una versione più elaborata dello stesso trucco."
+  }
+ },
+ "v5-brividi-musica": {
+  "it": {
+   "5": "Puoi cercare i brividi di proposito. Funzionano meglio i brani che conosci abbastanza da anticipare ma non tanto da annoiarti: canzoni amate ma non ascoltate da tempo. Aiutano volume alto, cuffie e attenzione piena. I ricercatori hanno raccolto migliaia di segnalazioni: spesso coincidono con l’ingresso di una voce, un cambio di tonalità o un crescendo dopo un silenzio. Saperlo li rende più frequenti, non meno."
+  }
+ },
+ "v5-candela": {
+  "it": {
+   "5": "Nel 1848 Michael Faraday tenne a Londra lezioni per ragazzi intitolate La storia chimica di una candela, ancora oggi tra le migliori introduzioni alla scienza mai scritte. Mostrò che il vapore d'acqua si condensa su un cucchiaio freddo sopra la fiamma, che l'anidride carbonica spegne un fiammifero e che una candela e una persona respirano lo stesso ossigeno. Con un oggetto da pochi centesimi spiegò combustione, stati della materia e chimica dell'aria: la stessa candela che hai sul tavolo."
+  }
+ },
+ "v5-corpo-senza-tuta": {
+  "it": {
+   "4": "Non è solo teoria. Nel 1966 un tecnico della NASA, Jim LeBlanc, stava testando una tuta in una camera a vuoto quando un tubo si staccò: perse conoscenza in quattordici secondi e ricorda solo la saliva che gli bolliva sulla lingua. Fu salvato in meno di trenta secondi e si riprese completamente. Nel 1971 i tre cosmonauti della Soyuz 11 morirono invece quando una valvola si aprì durante il rientro.",
+   "5": "La tuta è una piccola astronave personale. Mantiene una pressione di circa un terzo di quella terrestre con ossigeno puro, quindi gli astronauti respirano ossigeno per ore prima di uscire per eliminare l'azoto dal sangue. Quattordici strati proteggono da micrometeoriti, radiazioni e sbalzi tra 120 gradi al sole e meno 150 all'ombra; un sottotuta con tubicini d'acqua raffredda il corpo. Pesa 130 chili, costa decine di milioni e i guanti restano la parte più difficile da progettare."
+  }
+ },
+ "v5-dieci-giorni-persi": {
+  "it": {
+   "4": "Non tutti la presero bene. Quando l'Inghilterra saltò gli undici giorni nel 1752, circolarono storie di folle che gridavano 'ridateci i nostri undici giorni'. Oggi gli storici pensano che quelle rivolte siano in gran parte una leggenda nata da una stampa satirica, ma le preoccupazioni erano reali: affitti, salari, interessi e compleanni andavano ricalcolati. Alcuni, come William Penn, si dissero 'più vecchi di undici giorni senza averli vissuti'."
+  }
+ },
+ "v5-foto-notturne": {
+  "it": {
+   "5": "La modalità notte a volte mente. Un cielo che a occhio nudo era nero diventa blu profondo con le stelle, un vicolo buio sembra illuminato: sono scelte del software, che alza le ombre, scalda i colori e aggiunge dettagli plausibili. Alcuni telefoni sostituiscono perfino la Luna con un'immagine più nitida imparata durante l'addestramento. La foto è tecnicamente reale, ma non è quello che hai visto. Per fedeltà, cerca l'opzione che disattiva l'elaborazione o scatta in formato RAW."
+  }
+ },
+ "v5-giramento-testa": {
+  "it": {
+   "5": "Se la testa gira da ferma, spesso la causa è nell'orecchio. La vertigine posizionale, la più comune, nasce da piccoli cristalli di calcio che si staccano e finiscono in un canale sbagliato, dove muovono il liquido a ogni cambio di posizione; si risolve con manovre precise di uno specialista. Altre cause sono infezioni del labirinto e malattia di Ménière. Se è improvvisa con altri sintomi neurologici, serve il pronto soccorso."
+  }
+ },
+ "v5-iperinflazione": {
+  "it": {
+   "5": "L’iperinflazione non è un fenomeno del passato. Il Venezuela ha superato il milione per cento nel 2018, lo Zimbabwe stampò una banconota da cento trilioni nel 2008 prima di abbandonare la propria moneta, l’Argentina convive da anni con prezzi che raddoppiano in dodici mesi. Le cause sono sempre le stesse: spesa pubblica finanziata stampando denaro, perdita di fiducia, fuga verso il dollaro. E la cura è dolorosa: fermare la stampa, tagliare, ricominciare con una moneta nuova."
+  }
+ },
+ "v5-lez-app-server": {
+  "it": {
+   "5": "Ogni richiesta porta con sé chi sei: un gettone di accesso ottenuto al login, l'ora, il tipo di dispositivo, spesso la posizione approssimativa. Il server registra tutto in file di log per sicurezza e statistica. Per questo le impostazioni privacy contano: non riguardano solo ciò che vedi, ma ciò che invii in automatico a ogni tocco. Un buon esercizio: apri le impostazioni di un'app che usi ogni giorno e leggi quali permessi ha davvero. Spesso il microfono e la posizione non le servono affatto."
+  }
+ },
+ "v5-lez-calore-temperatura": {
+  "it": {
+   "5": "Ecco la conseguenza più sorprendente: il freddo non è una cosa, è l'assenza di calore. Quando tocchi il ghiaccio, non entra freddo nella tua mano: il calore della mano passa al ghiaccio. Il frigorifero non produce freddo, sposta calore dall'interno all'esterno: per questo la parte posteriore è tiepida. Il limite inferiore è lo zero assoluto, meno 273,15 gradi, dove le molecole hanno la minima energia possibile; verso l'alto non c'è limite."
+  }
+ },
+ "v5-lez-costellazioni": {
+  "it": {
+   "5": "Nel 1922 l'Unione Astronomica Internazionale ha fissato 88 costellazioni con confini precisi che coprono tutto il cielo: così ogni stella appartiene a una sola. Le dodici dello zodiaco sono attraversate dal Sole, ma oggi passa circa un mese dopo rispetto ai segni astrologici e attraversa anche l'Ofiuco."
+  }
+ },
+ "v5-lez-datare-reperti": {
+  "it": {
+   "4": "Per i tempi profondi il carbonio-14 non basta: è quasi tutto decaduto. Si passa ad altri orologi radioattivi, più lenti: il potassio-argon data le rocce vulcaniche che racchiudono i fossili, fino a miliardi di anni; la termoluminescenza misura da quanto tempo una ceramica o una pietra sono state scaldate l'ultima volta; la luminescenza otticamente stimolata dice quando un granello di sabbia ha visto la luce prima di essere sepolto. Ogni materiale ha il suo cronometro."
+  }
+ },
+ "v5-lez-medioevo": {
+  "it": {
+   "4": "Prova a togliere il Medioevo dalla tua giornata. Niente occhiali, inventati a Pisa o Venezia verso il 1290, niente bottoni con asole, carriola, mulino a vento, orologio meccanico, che nel Trecento cominciò a dividere la giornata in ore uguali. Niente università né lauree, ospedali come istituzioni, numeri arabi con lo zero, adottati dai mercanti italiani per far di conto. E niente notazione musicale: ogni canzone che conosci sarebbe stata dimenticata.",
+   "5": "Tre abitudini per non ripetere il luogo comune. Prima: specifica quale Medioevo, perché tra il 500 e il 1500 cambia tutto; il Duecento delle cattedrali non è il Seicento dopo la peste. Seconda: chiediti chi racconta, perché la fonte “i medievali credevano che” è quasi sempre di un umanista o di un illuminista che vendeva la propria epoca. Terza: cerca il dato concreto. La prossima volta che senti “siamo tornati al Medioevo”, hai il diritto di chiedere: a quale, esattamente?"
+  }
+ },
+ "v5-lez-moneta-antica": {
+  "it": {
+   "4": "Anche i falsari fanno storia. Nel mondo romano i \"suberati\" erano monete di rame rivestite d'argento, e le autorità punivano i falsari con la morte; eppure circolavano in massa, prova di quanto la gente si fidasse dell'aspetto più che del peso. Oggi il rischio è il falso moderno venduto come antico: controlla peso, suono su legno e diffida di patine uniformi e monete troppo perfette.",
+   "5": "In Italia, e in gran parte d'Europa, una moneta antica trovata nel terreno appartiene allo Stato: non è un souvenir, è un documento. Fotografala sul posto, segna il punto, e consegnala alla Soprintendenza o ai Carabinieri per la tutela del patrimonio; il ritrovamento può dare diritto a un premio. Non pulirla con acidi o spazzole: la patina è parte della storia e la pulizia aggressiva cancella la legenda. Se vuoi collezionare, compra solo da venditori con provenienza documentata."
+  }
+ },
+ "v5-lez-nascita-citta": {
+  "it": {
+   "4": "Le stesse condizioni che fanno nascere una città possono farla sparire. Se il fiume cambia corso o si insabbia, come a Efeso, il porto diventa pianura e la città si svuota. Se una via commerciale si sposta, come le carovaniere della seta dopo le rotte oceaniche, le oasi-città dell'Asia centrale si spengono. E se scompare la funzione che attirava le persone, una miniera esaurita, una capitale spostata, restano città fantasma. Detroit ha perso due terzi degli abitanti in sessant'anni."
+  }
+ },
+ "v5-lez-rivoluzione-agricola": {
+  "it": {
+   "4": "Una volta imboccata, la strada dell'agricoltura non ha ritorno. Un villaggio di contadini genera più figli di un gruppo di cacciatori, e quei figli chiedono più campi; i campi più lavoro, il lavoro più figli. In poche generazioni la popolazione è troppo numerosa per tornare alla caccia. Gli storici la chiamano trappola dell'agricoltura: scelte ragionevoli, insieme hanno legato la specie alla zappa. Vale ancora oggi per molte tecnologie."
+  }
+ },
+ "v5-lez-sistema-solare-scala": {
+  "it": {
+   "5": "Il vuoto si misura anche in tempo. La luce del Sole raggiunge la Terra in 8 minuti, Giove in 43, Nettuno in 4 ore. Una sonda che viaggia a 60.000 chilometri l'ora, come New Horizons, ha impiegato nove anni per raggiungere Plutone, e le Voyager 35 per uscire dalla bolla del vento solare. Per Proxima Centauri, alla stessa velocità, servirebbero 75.000 anni."
+  }
+ },
+ "v5-lez-stati-materia": {
+  "it": {
+   "5": "All'estremo opposto, vicino allo zero assoluto, la materia fa cose strane. L'elio liquido diventa superfluido e risale le pareti del contenitore senza attrito; alcuni metalli diventano superconduttori e trasportano corrente senza perdite, il principio delle risonanze magnetiche negli ospedali. Nel 1995 sono stati creati i condensati di Bose-Einstein: migliaia di atomi si comportano come un unico atomo gigante. Solido, liquido e gas sono solo i tre stati che incontri a temperatura di cucina."
+  }
+ },
+ "v5-lez-stress": {
+  "it": {
+   "5": "Le tecniche di recupero servono, ma la soluzione duratura è togliere carburante all'allarme. Fai un elenco delle fonti di stress delle ultime due settimane e dividile in tre gruppi: quelle che puoi eliminare, ridurre o accettare. Sul primo agisci subito, anche con una sola cosa. Sul secondo negozia: orari, aspettative, deleghe. Sul terzo usa cambio di etichetta e recupero."
+  }
+ },
+ "v5-lez-telescopio": {
+  "it": {
+   "5": "Se vuoi cominciare, ignora gli ingrandimenti scritti sulla scatola e guarda l'apertura: un riflettore da 130-150 millimetri su montatura stabile mostra i crateri lunari, gli anelli di Saturno, le lune di Giove e le nebulose più brillanti, e costa quanto uno smartphone economico. Un buon binocolo 10x50 è però il primo acquisto giusto."
+  }
+ },
+ "v5-miglia-aeree": {
+  "it": {
+   "5": "Per te le miglia sono una moneta che vale solo se la spendi con criterio. Convertirle in merce o buoni regalo rende pochissimo; usarle per voli intercontinentali in classe business, dove il prezzo in denaro è altissimo, può valere dieci volte di più. Accumula su un solo programma, controlla le scadenze e non spendere più di quanto avresti speso comunque. Ricorda: la compagnia può cambiare le regole dall'oggi al domani e svalutarle."
+  }
+ },
+ "v5-napoleone-basso": {
+  "it": {
+   "4": "I soldati lo chiamavano 'le petit caporal', il piccolo caporale, e il nomignolo sembra confermare la leggenda. Ma 'petit' era un vezzeggiativo affettuoso, guadagnato dopo la battaglia di Lodi nel 1796, quando i veterani lo 'promossero' scherzosamente al grado più basso per la sua abitudine di stare in mezzo a loro. E poi era spesso circondato dalle guardie imperiali, scelte tra gli uomini più alti dell'esercito."
+  }
+ },
+ "v5-pizza-margherita": {
+  "it": {
+   "5": "Nel 2017 l'UNESCO ha iscritto l'arte del pizzaiuolo napoletano nel patrimonio culturale immateriale, dopo una petizione firmata da due milioni di persone. Non la pizza in sé, ma i gesti: impasto lavorato a mano, schiaffo che stende il disco, forno a legna a 485 gradi per 60-90 secondi. Il disciplinare della pizza napoletana verace fissa anche diametro massimo, 35 centimetri, e altezza del cornicione. La leggenda della regina è discutibile; la tecnica è reale e protetta."
+  }
+ },
+ "v5-primo-sciopero": {
+  "it": {
+   "4": "Deir el-Medina è uno dei siti meglio documentati dell'antichità, perché i suoi abitanti sapevano scrivere e lo facevano su cocci, schegge di pietra e papiri. Conosciamo i nomi degli operai, le liti tra vicini, le assenze giustificate con 'ha bevuto con il capo' o 'ha imbalsamato la madre', e persino un caso di corruzione di un caposquadra. Erano artigiani rispettati, con un orario di otto ore, riposo ogni dieci giorni e razioni di grano, birra, pesce e verdure: la classe media del mondo antico."
+  }
+ },
+ "v5-quarantena-venezia": {
+  "it": {
+   "4": "Venezia inventò anche la burocrazia della salute. Le navi in arrivo dovevano esibire una 'fede di sanità', rilasciata dal porto di partenza e prova dell'assenza di peste in città: se mancava o era sospetta, scattava la quarantena. I Provveditori alla Sanità tenevano registri dei morti per causa, tra i primi in Europa, potevano chiudere case e botteghe, e ispettori pagati controllavano i lazzaretti. Tutto questo tre secoli prima che qualcuno vedesse un batterio al microscopio.",
+   "5": "Nessuno nel Trecento conosceva Yersinia pestis, il batterio trasmesso dalle pulci dei ratti. Ma l'osservazione era giusta: la malattia arrivava con navi e merci, soprattutto lana e tessuti, che i veneziani facevano arieggiare e fumigare per giorni. Senza saperlo, così uccidevano le pulci nell'attesa. La quarantena funzionava per la ragione sbagliata, ma funzionava. È un buon promemoria: in medicina, misure basate sull'osservazione attenta possono precedere la teoria di secoli."
+  }
+ },
+ "v5-sahara-verde": {
+  "it": {
+   "5": "Il periodo umido non fu solo un fatto climatico: fu un mondo abitato. Pastori con mandrie di bovini vivevano dove oggi ci sono solo dune; a Gobero, in Niger, sono state trovate centinaia di tombe di due popolazioni diverse, vissute a distanza di millenni. Quando le piogge cessarono, tra 6.000 e 4.000 anni fa, le comunità si spostarono verso il Nilo e contribuirono probabilmente alla nascita della civiltà egizia."
+  }
+ },
+ "v5-saturno-galleggia": {
+  "it": {
+   "4": "Gli anelli di Saturno sono fatti di miliardi di frammenti di ghiaccio quasi puro, da granelli a case, in un disco largo 280.000 chilometri ma spesso in media solo dieci metri. Cassini indica che sono giovani, forse 100 milioni di anni, nati dalla distruzione di una luna o di una cometa, e che tra 100 e 300 milioni di anni saranno spariti."
+  }
+ },
+ "v5-streaming-sgrana": {
+  "it": {
+   "5": "Un film in 4K su una piattaforma di streaming occupa meno banda di quanto i pixel farebbero pensare: circa 15-25 megabit al secondo, un decimo di un disco Blu-ray. Il merito è dei nuovi formati di compressione, che descrivono la scena con forme, gradienti e movimenti, non pixel uno per uno. Ogni generazione di codec dimezza il peso a parità di qualità, ma richiede chip più potenti: per questo una TV vecchia a volte non riproduce i formati più recenti."
+  }
+ },
+ "v8-crows-remember-human-faces": {
+  "en": {
+   "2": "Crows do not seem to remember faces for only a few days. In some studies, recognition of people associated with danger lasted for many years. That saves energy: instead of fleeing from everyone, crows can focus on individuals who matter. This is not just a reflex. They distinguish among people and adjust their behavior according to past experience.",
+   "4": "Saying that crows remember faces is true, but it is probably a simplification. These birds likely combine several cues at once: facial features, posture, gait, clothing, objects in hand, and context. In experiments, masks isolate the facial element, but real-life recognition is probably richer. Their vigilance is not paranoia. It is a fine-tuned reading of danger built through experience, attention, and learning."
+  }
+ },
+ "v8-how-did-people-know-the-time-before-clocks": {
+  "it": {
+   "3": "Un dettaglio sorprendente è che in molte civiltà antiche il giorno chiaro e la notte venivano spesso divisi ciascuno in dodici parti. Così un’ora di luce in estate poteva essere più lunga di un’ora di luce in inverno. I Romani, per esempio, vivevano con ore stagionali, variabili nell’anno: mezzogiorno restava il Sole più alto, ma le altre ore si allungavano o si accorciavano.",
+   "5": "Gli orologi meccanici comparvero in Europa tra XIII e XIV secolo: all’inizio erano grandi, pubblici e non molto accurati. Non avevano ancora il quadrante moderno con minuti affidabili, ma introdussero una novità decisiva: un tempo contato anche senza Sole e senza acqua che scorre. Poi, con pendoli, molle e meccanismi migliori, la misura divenne più uniforme e precisa."
+  }
+ },
+ "v8-how-do-fireflies-make-light-without-heat": {
+  "it": {
+   "5": "La chimica delle lucciole è diventata uno strumento prezioso per la scienza. Il sistema luciferina-luciferasi si usa nei laboratori per tracciare cellule, misurare l’attività di geni, rilevare ATP e seguire infezioni o tumori in modelli sperimentali. Poiché produce luce senza scaldare e senza illuminazione esterna, permette osservazioni molto sensibili. Gli ingegneri studiano anche organi luminosi e superfici dell’addome per progettare LED e materiali ottici più efficienti."
+  }
+ },
+ "v8-how-do-whales-sleep-without-drowning": {
+  "en": {
+   "5": "Scientists know a great deal about cetacean rest, but not everything. Studying the sleep of huge, mobile animals far from shore is difficult, so much of what we know comes from surface observations, physiological recordings in more accessible species such as dolphins, and temporary tags at sea. Big questions remain about whether all large whales use unihemispheric sleep in the same way, how much they sleep during long migrations, and how rest changes in noisy, heavily trafficked waters."
+  }
+ },
+ "v8-how-does-shazam-recognise-a-song-in-three-seconds": {
+  "en": {
+   "3": "The clever part is not just finding matching codes, but checking whether they agree on the same time offset. Each tiny clue suggests that a pattern from the sample may appear in a specific song. If those clues point to different moments, the match is weak; if they converge on the same gap, false positives drop sharply. Made famous by engineer Avery Wang’s work in the early 2000s, this helps recognise songs even in noisy, compressed or imperfect real-world audio.",
+   "4": "Shazam works best when the recording is in its catalogue and the version you hear is reasonably close to the stored original. In very noisy places, with people singing, strong echo or clips that are too short, it can fail. Remixes, live covers or sped-up social media versions can also confuse it. And it does not truly understand music; it just matches acoustic patterns against a massive database, extremely well."
+  }
+ },
+ "v8-how-does-your-phone-know-you-ve-rotated-it": {
+  "it": {
+   "3": "Capire che il telefono si è mosso non basta: il software deve decidere se cambiare davvero la schermata. Per evitare rotazioni fastidiose, aspetta di solito che l'orientamento resti stabile per un breve momento e che l'angolo superi certe soglie. Inoltre considera il contesto: se sei sdraiato, cammini o un'app richiede un orientamento fisso, la rotazione automatica può essere bloccata o ritardata.",
+   "4": "Questi sensori sono straordinariamente piccoli, ma non perfetti. Possono avere rumore elettronico, piccoli errori di fabbricazione e derive nel tempo: il giroscopio accumula errori se integrato a lungo, l'accelerometro può essere disturbato da vibrazioni o movimenti improvvisi. Per questo il telefono applica filtri matematici e calibrazione, in fabbrica o durante l'uso. In certi modelli entra in gioco anche il magnetometro.",
+   "5": "Gli stessi sensori che ruotano lo schermo rendono possibili molte altre funzioni quotidiane. Contano i passi, rilevano cadute, aiutano la fotocamera a stabilizzare i video e permettono ai giochi di reagire ai tuoi movimenti. Nella navigazione, combinati con GPS e bussola, aiutano a capire in che direzione stai guardando. Nella realtà aumentata permettono agli oggetti virtuali di restare ancorati alla scena mentre muovi il telefono."
+  }
+ },
+ "v8-how-much-does-earth-weigh-and-how-did-we-measure-it": {
+  "en": {
+   "4": "Earth is not a smooth, perfectly uniform ball. It is slightly flattened at the poles, bulges at the equator, and has layers with very different densities: crust, mantle, liquid outer core, and solid inner core. Gravity also varies a little from place to place because of rotation, altitude, and mass differences below the surface. So modern geodesy uses satellites and detailed gravity maps to describe the geoid. These refinements barely change the total mass, but make the picture far more precise.",
+   "5": "There is a fascinating twist: we know Earth’s mass very well, but G remains one of the hardest fundamental constants to measure with high precision. Different experiments give values that are extremely close, yet not always perfectly consistent. Even so, many astronomical and geophysical measurements determine Earth’s mass very reliably."
+  }
+ },
+ "v8-lez-correlation-isn-t-causation-how-to-read-a-scientific-stu": {
+  "it": {
+   "0": "Quando leggi un titolo scientifico, chiediti subito: mostra che due fattori sono associati, oppure prova che uno provoca l’altro? Questa è la distinzione centrale. Una correlazione significa che due variabili cambiano insieme; una causa che cambiando A cambia davvero B. Per esempio, chi dorme poco può avere più stress. Ma il poco sonno causa lo stress, o lo stress fa dormire male? O entrambe le cose? Allenati a tradurre i titoli forti in domande più prudenti.",
+   "1": "Il tipo di studio conta più del titolo. Uno studio osservazionale registra ciò che accade nella vita reale e trova legami utili, ma di solito non basta a provare una causa. Un esperimento randomizzato assegna invece i partecipanti a gruppi diversi per isolare meglio l’effetto di un fattore. Se leggi che chi beve più caffè vive più a lungo, controlla se i ricercatori hanno solo osservato abitudini o modificato qualcosa in modo controllato. Sono indizi forti, non verdetti finali.",
+   "2": "Spesso la trappola è una variabile nascosta, chiamata fattore confondente. È un terzo elemento che influenza sia A sia B e crea l’illusione di una relazione diretta. Un esempio classico: in estate aumentano sia i gelati venduti sia gli annegamenti. I gelati non causano gli annegamenti; il fattore comune è il caldo. Se uno studio collega un alimento a un rischio minore, chiediti: chi lo consuma fa anche più esercizio, fuma meno o ha un reddito diverso?",
+   "3": "Non fermarti al fatto che un risultato sia “significativo”. Chiedi quanto è grande l’effetto e quanto è solido. Un’associazione può essere reale ma minuscola, quindi poco importante nella vita pratica. Se uno studio dice che una certa abitudine aumenta il rischio del 20%, chiediti: 20% di cosa? Se il rischio passa da 10 su 10.000 a 12 su 10.000, l’aumento esiste ma resta piccolo. Guarda anche il campione: 80 persone o 80.000? E verifica se l’effetto è coerente o incerto.",
+   "4": "Una relazione causale diventa più credibile quando esiste un meccanismo plausibile: un percorso biologico, fisico o psicologico che spiega perché A dovrebbe influenzare B. Non serve conoscere tutta la biochimica, ma è utile chiedersi se l’idea ha senso oltre ai numeri. Se uno studio suggerisce che la luce serale peggiora il sonno, il meccanismo è plausibile: la luce può alterare i ritmi circadiani. Il meccanismo da solo non prova nulla, ma rafforza o indebolisce l’interpretazione.",
+   "5": "Un singolo studio raramente chiude la questione. La scienza diventa affidabile quando risultati simili compaiono in gruppi diversi, con metodi diversi, e magari vengono riassunti in revisioni sistematiche o meta-analisi. Se oggi leggi “mangiare tardi fa male”, domani non dovresti cambiare vita per una sola ricerca. Meglio chiederti: altri studi dicono la stessa cosa? Il risultato è stato replicato? Gli autori parlano di limiti? Così lo collochi nel quadro più grande dell’evidenza disponibile."
+  }
+ },
+ "v8-lez-how-a-lever-works-lifting-a-lot-with-a-little": {
+  "en": {
+   "0": "A lever is a rigid bar that rotates around a fixed point called the fulcrum. The key idea is simple: what matters is not only how much force you use, but where you use it. Push at the right point, and you create a much bigger effect on the other side. That is the principle behind a crowbar, a wheelbarrow, and even scissors. Picture a plank on a rock: press one end, the other rises.",
+   "1": "To understand any lever, identify three elements: the fulcrum, the applied force, and the load. The fulcrum is the point everything turns around. The applied force, or effort, is the push or pull you provide. The load, or resistance, is what you want to move. In a bottle opener, the cap is the load, the resting point is the fulcrum, and your hand applies force at the end of the handle.",
+   "2": "A lever works because of distance from the fulcrum. That distance is called the arm: there is an effort arm and a load arm. The farther from the fulcrum you apply your force, the easier it becomes to lift the load. With the same effort, you get a bigger effect. Push a door near the hinges and it feels hard; push at the handle and it opens easily. The force is the same, but the longer arm changes its effect.",
+   "3": "When a lever lets you overcome a large load with a small force, you are getting mechanical advantage. If your effort arm is longer than the load arm, the lever works in your favor. With a long crowbar and the fulcrum close to the crate, even a person of average strength can move a heavy object. But there is a trade-off: to raise the load a little, your hand must move farther. A lever exchanges force for distance.",
+   "4": "Not all levers are arranged the same way. In first-class levers, the fulcrum sits between force and load, as in a seesaw or pliers. In second-class levers, the load is in the middle, as in a wheelbarrow, which is why you can carry heavy things with less effort. In third-class levers, the force is in the middle, as in your arm lifting a book. You gain less force, but more speed and precision.",
+   "5": "To use a lever well, ask three questions: where is the fulcrum, where is the load, and where should the force go? To lift a heavy plant pot with a board, place the fulcrum close to the pot and push at the far end. That makes your effort arm longer and the load arm shorter, so the pot rises more easily. This is useful at home, in a workshop, and even in the human body: often the solution is not to push harder, but smarter."
+  },
+  "it": {
+   "0": "Una leva è una barra rigida che ruota attorno a un punto fisso chiamato fulcro. L’idea chiave è semplice: non conta solo quanta forza applichi, ma anche dove. Se spingi nel punto giusto, ottieni un effetto molto più grande sull’altro lato. È il principio di piede di porco, carriola e forbici: tavola su un sasso, premi a un’estremità, l’altra si alza.",
+   "1": "Per capire ogni leva, individua sempre tre elementi: fulcro, forza applicata e carico. Il fulcro è il punto attorno a cui tutto ruota; la forza applicata, o potenza, è la spinta o il tiro che fai tu; il carico, o resistenza, è ciò che vuoi muovere. In un apribottiglie, il bordo del tappo è il carico, il punto d’appoggio è il fulcro e la tua mano applica la forza al manico.",
+   "2": "La leva funziona grazie alla distanza dal fulcro, chiamata braccio: c’è il braccio della forza e quello del carico. Più lontano dal fulcro applichi la tua forza, più facilmente sollevi il peso. È come una maniglia più lunga: con lo stesso sforzo ottieni più effetto. Se spingi una porta vicino alle cerniere fai fatica; dalla maniglia si apre subito. Spesso la differenza è dove usi la forza.",
+   "3": "Quando una leva ti permette di vincere un carico grande con una forza piccola, stai ottenendo un vantaggio meccanico. Se il tuo braccio della forza è più lungo di quello del carico, la leva lavora per te. Con un piede di porco lungo e il fulcro vicino alla cassa, anche una persona non molto forte può smuovere un peso notevole. Ma c’è un prezzo: meno forza, più distanza. La leva non crea energia dal nulla.",
+   "4": "Non tutte le leve hanno la stessa disposizione. Nelle leve di primo genere il fulcro sta tra forza e carico, come in un’altalena o in una pinza. Nelle leve di secondo genere il carico sta in mezzo, come nella carriola: così trasporti pesi grandi con meno sforzo. Nelle leve di terzo genere la forza è in mezzo, come nel braccio umano con un libro in mano: meno forza, più velocità e precisione del movimento.",
+   "5": "Per usare bene una leva, fai tre domande: dov’è il fulcro, dov’è il carico, dove conviene applicare la forza? Se vuoi sollevare un vaso pesante con una tavola, metti il fulcro vicino al vaso e spingi all’estremità opposta. Così allunghi il braccio della tua forza e accorci quello del carico: il vaso si alza più facilmente. Spesso la soluzione non è spingere più forte, ma spingere meglio."
+  }
+ },
+ "v8-lez-how-an-exoplanet-is-discovered-in-6-steps": {
+  "en": {
+   "0": "The search starts with a star that can be observed for a long time and measured very precisely. Astronomers prefer steady, not-too-active stars, because stellar flickering can hide or imitate a planet’s signal. A space or ground telescope records its brightness for weeks or months, making a light curve. If the star were TESS-123, scientists would first need its “normal” brightness baseline.",
+   "1": "When a planet passes in front of its star as seen from Earth, it blocks a tiny fraction of starlight. This is called a transit. On the graph it appears as a small dip, often less than 1%, sometimes far less. If a star shines at 100 and briefly drops to 99.9, that can already matter. Bigger planets make deeper dips. But one dip is not enough: it could be a glitch, a starspot, or another temporary effect.",
+   "2": "A planet in orbit crosses in front of its star at regular intervals. So astronomers check whether the same tiny dip returns after the same number of days. If it appears every 12 days, for example, the signal becomes much more convincing. Random events do not keep perfect time, but an orbit does. Measuring the interval also gives the orbital period, the length of that planet’s year.",
+   "3": "Not everything that looks like a planet really is one. A distant pair of stars lined up by chance can mimic a transit, and a variable star can make similar patterns. To avoid mistakes, astronomers compare data from different instruments, inspect high-resolution images, and study the light’s color. If the dip changes a lot with wavelength, it may not be a planet. Before announcing a discovery, simpler explanations must be eliminated.",
+   "4": "If the transit is real, the dip’s depth estimates the planet’s radius: a deeper dip usually means a larger planet. To learn its mass, astronomers often use radial velocity. As a planet moves, it tugs its star slightly back and forth, changing the star’s light in a measurable way. If a planet had Neptune’s size but Earth’s mass, that would be unusual. Radius and mass together also let scientists calculate density.",
+   "5": "When the period, size, mass, and independent checks all agree, the candidate becomes a confirmed exoplanet. Astronomers can then estimate its temperature, distance from the star, and whether its orbit lies in the habitable zone, where liquid water might exist. In some cases they also study the atmosphere through starlight passing through it during a transit. The result is usually not a sharp photo, but a scientific portrait built from tiny signals in light."
+  }
+ },
+ "v8-lez-mass-weight-and-force-the-differences-everyone-mixes-up": {
+  "en": {
+   "0": "Mass, weight and force often sound interchangeable, but in physics they mean different things. Mass tells you how much matter an object has and how strongly it resists changes in motion. Weight is the force with which a planet or other body pulls on that object. Force is any push or pull that can change motion or deform something. Separating these ideas is the first step to getting everyday talk and science problems right.",
+   "1": "Mass belongs to the object, not to the place where it happens to be. If your backpack has a mass of 5 kilograms, it is still 5 kilograms in your kitchen, on a mountain, on the Moon or inside a spacecraft. Mass does not measure how strongly something is pulled downward. It measures how much matter it contains and how much inertia it has: the tendency to keep the same state of rest or motion. That is why mass is measured in kilograms, not newtons.",
+   "2": "Weight, by contrast, depends on the gravity where you are. In physics, weight is a force, so it is measured in newtons. The basic relation is simple: weight = mass × gravitational acceleration. On Earth, gravitational acceleration is about 9.8 meters per second squared, so an object with a mass of 2 kilograms has a weight of about 19.6 newtons. On the Moon, that same object would weigh much less, though its mass would still be 2 kilograms.",
+   "3": "Every weight is a force, but not every force is a weight. Force is the wider idea: it can be gravity, the push of a hand, the friction from brakes, the tension in a rope or the support force from the floor under your feet. If you push a door open, a magnet pulls a paper clip or a spring stretches, there is a force. Weight is only one special case: the gravitational force acting on a body.",
+   "4": "In everyday speech we say “I weigh 70 kilos,” but strictly speaking that refers to mass, not weight. Kilograms are units of mass. Weight should be expressed in newtons: a person with a mass of 70 kilograms on Earth has a weight of about 686 newtons. A bathroom scale actually measures a force, how strongly you press downward, then converts that reading assuming normal Earth gravity. On the Moon, without recalibrating it, it would show a different value.",
+   "5": "To stay oriented, ask three questions. Am I talking about how much matter an object has, or how much inertia it has? Then it is mass. Am I talking about the gravitational pull acting on that object? Then it is weight. Am I describing any push or pull that can change motion or cause deformation? Then it is force. An astronaut with a mass of 80 kilograms on the Moon still has a mass of 80 kilograms, weighs far less than on Earth, and can still exert strong forces while pushing a tool."
+  },
+  "it": {
+   "0": "Massa, peso e forza sembrano quasi sinonimi, ma in fisica indicano cose diverse. La massa dice quanta materia ha un corpo e quanto resiste a cambiare velocità; il peso è la forza con cui un pianeta o un altro astro lo attira; la forza, più in generale, è ogni spinta o trazione che può cambiare il moto o deformare un oggetto. Una mela, per esempio, ha una massa, sulla Terra ha un peso e, se la spingi con la mano, subisce un’altra forza.",
+   "1": "La massa appartiene all’oggetto, non al luogo in cui si trova. Se hai uno zaino di massa 5 chilogrammi, resta di 5 chilogrammi in cucina, in montagna, sulla Luna o dentro una navicella. La massa non misura “quanto tira verso il basso” qualcosa, ma quanta materia contiene e quanta inerzia possiede, cioè la tendenza a mantenere il proprio stato di quiete o di moto. Per questo si misura in chilogrammi, non in newton.",
+   "2": "Il peso, invece, dipende dalla gravità del luogo in cui ti trovi. In fisica è una forza e infatti si misura in newton: peso = massa × accelerazione di gravità. Sulla Terra l’accelerazione di gravità vale circa 9,8 metri al secondo quadrato, quindi un oggetto di massa 2 chilogrammi ha un peso di circa 19,6 newton. Sulla Luna, dove la gravità è circa sei volte più debole, lo stesso oggetto peserebbe molto meno: la massa resterebbe 2 chilogrammi, ma il peso cambierebbe.",
+   "3": "Ogni peso è una forza, ma non ogni forza è un peso. La forza è una grandezza generale: può essere la gravità, la spinta di una mano, l’attrito dei freni, la tensione di una corda o la reazione del pavimento sotto i piedi. Se spingi una porta, eserciti una forza; se un magnete attira una graffetta, c’è una forza; se una molla si allunga, la sua elasticità produce una forza. Il peso è solo un caso particolare: la forza gravitazionale esercitata su un corpo.",
+   "4": "Nel linguaggio comune diciamo “peso 70 chili”, ma in modo rigoroso stiamo parlando della massa, non del peso. I chilogrammi sono unità di massa; il peso dovrebbe essere espresso in newton: una persona di massa 70 chilogrammi sulla Terra ha un peso di circa 686 newton. La bilancia di casa mostra chilogrammi perché misura una forza, cioè quanto vieni spinto verso il basso, e poi la converte assumendo la gravità terrestre normale. Sulla Luna, senza ricalibrarla, darebbe un valore diverso.",
+   "5": "Per orientarti, fai sempre tre domande. Sto parlando di quanta materia o di quanta inerzia ha un corpo? Allora è massa. Sto parlando dell’attrazione gravitazionale su quel corpo? Allora è peso. Sto descrivendo una spinta o trazione che può cambiare il moto o deformare? Allora è forza. Un astronauta con massa 80 chilogrammi sulla Luna ha sempre massa 80 chilogrammi, pesa molto meno che sulla Terra e può comunque esercitare forze forti spingendo un attrezzo."
+  }
+ },
+ "v8-lez-what-light-is-waves-particles-and-colours": {
+  "en": {
+   "0": "Light is a form of energy that moves through space. It reaches you from the Sun, a lamp, or your phone screen, and makes vision possible. In a vacuum it travels about 300,000 kilometres per second, so sunlight takes a little over 8 minutes to reach Earth. Unlike sound, which needs a medium like air, light can cross empty space. A torch in a dark room shows this clearly.",
+   "1": "For a long time, light was described as a wave, a regular propagation of energy. This helps explain reflection, refraction, and interference. When a straw in water looks bent, light has changed direction moving from air into water: that is refraction. Light waves also have a wavelength, the distance between successive peaks. That matters for colours, and helps explain how light spreads, combines, and changes path in materials.",
+   "2": "In the twentieth century, scientists realised that light does not behave only like a wave. In some situations it acts as if it is made of tiny packets of energy called photons. Each photon carries a precise amount of energy, a quantum. This explains the photoelectric effect: light can knock out electrons from a material if each photon has enough energy. Less energetic light cannot, even if very bright.",
+   "3": "The surprising part is that light is not simply sometimes a wave and sometimes a particle in the ordinary sense. It is a quantum phenomenon showing properties of both, depending on what you measure and how it interacts with matter. Classical models are incomplete on their own. In two slits, wave behaviour stands out. In exchanges with atoms or sensors, photons are essential. Your phone camera does both.",
+   "4": "Colours depend mainly on the wavelength of visible light, the small part of the spectrum human eyes can detect. Longer wavelengths generally appear red, shorter ones blue or violet. White light, like sunlight, contains many wavelengths mixed together. A prism separates them into a spectrum, and a rainbow works similarly because water droplets bend and separate sunlight. A tomato looks red because it reflects mostly red light.",
+   "5": "Colour is not only in light itself; it also arises in your visual system. In the retina are light-sensitive cells, including cones, which respond differently to parts of the visible spectrum. Your brain compares those signals and constructs colour. That is why mixing lights is not the same as mixing paints. Red, green, and blue light can make white on screens, while pigments absorb light, so mixtures tend to get darker."
+  },
+  "it": {
+   "0": "La luce è una forma di energia che si propaga nello spazio. Ti arriva dal Sole, da una lampadina o dallo schermo del telefono e ti permette di vedere gli oggetti. Nel vuoto viaggia velocissima, circa 300.000 chilometri al secondo: per questo la luce del Sole impiega poco più di 8 minuti per raggiungere la Terra. A differenza del suono nell’aria, può attraversare anche il vuoto cosmico.",
+   "1": "Per molto tempo la luce è stata descritta come un’onda, cioè una propagazione regolare di energia. Questa idea aiuta a capire riflessione, rifrazione e interferenza. Quando una cannuccia in un bicchiere d’acqua sembra piegata, la luce cambia direzione passando da aria ad acqua: è la rifrazione. Le onde luminose hanno una lunghezza d’onda, la distanza tra due creste successive, importante per capire i colori.",
+   "2": "Nel Novecento si è capito che la luce non si comporta solo come un’onda. In alcune situazioni agisce come se fosse fatta di minuscoli pacchetti di energia chiamati fotoni. Ogni fotone trasporta una quantità precisa di energia, un “quanto”. Questo spiega l’effetto fotoelettrico: una luce abbastanza energetica può liberare elettroni, una meno energetica no, anche se è intensa. Qui la luce mostra il suo lato di particella.",
+   "3": "La parte sorprendente è che la luce non è a volte onda e a volte particella nel senso comune. È un fenomeno quantistico che mostra proprietà di entrambe le descrizioni, a seconda di che cosa misuri e di come interagisce con la materia. Se osservi come passa attraverso due fenditure, emerge il comportamento ondulatorio. Se studi come scambia energia con atomi o sensori, il linguaggio dei fotoni diventa essenziale.",
+   "4": "I colori dipendono soprattutto dalla lunghezza d’onda della luce visibile, la piccola parte dello spettro che i tuoi occhi percepiscono. In generale, lunghezze d’onda più lunghe appaiono rosse, più corte blu o violetto. La luce bianca del Sole contiene molte lunghezze d’onda mescolate insieme. Un prisma le separa in uno spettro, e anche l’arcobaleno funziona così. Un pomodoro ti appare rosso perché riflette soprattutto la luce rossa.",
+   "5": "Il colore non è solo nella luce: nasce anche nel tuo sistema visivo. Nella retina ci sono cellule sensibili alla luce, tra cui i coni, che rispondono in modo diverso a varie zone dello spettro visibile. Il cervello confronta questi segnali e costruisce l’esperienza del colore. Per questo mescolare luci non è uguale a mescolare vernici: rosso, verde e blu possono dare bianco, mentre i pigmenti tendono a scurire il risultato."
+  }
+ },
+ "v8-the-brain-hates-losing-more-than-it-loves-winning": {
+  "en": {
+   "0": "In psychology, this pattern is called loss aversion. It means that, for the same objective value, a loss weighs more heavily in the mind than an equivalent gain. Finding 20 euros feels nice, but losing 20 usually feels worse, often for longer. Daniel Kahneman and Amos Tversky showed that people do not evaluate outcomes and risk in perfectly rational ways, so the brain treats losses as high-priority warning signals.",
+   "1": "From an evolutionary perspective, avoiding immediate harm may have mattered more than chasing uncertain benefits. Losing food, territory, allies, or safety could have serious consequences, while an extra gain did not always change survival. So the nervous system likely became especially sensitive to threats. Today, that ancient shortcut still shapes behavior in investing, shopping, relationships, and work.",
+   "2": "Loss aversion influences many ordinary choices. It can make people hold onto a falling investment because selling would make the loss feel real, even when selling is better. It can make us keep useless possessions because getting rid of them feels like giving something up. The same bias appears when we reject beneficial change by focusing on what we might leave behind.",
+   "3": "There is no single loss switch in the brain, but several systems help generate the response. Neuroimaging studies suggest that regions involved in emotion, attention, and value evaluation react strongly when we perceive possible harm or disadvantage. The body joins in too: tension rises, heart rate can increase, and attention narrows. A loss can feel like a concrete threat, especially when stressed, tired, or under social pressure.",
+   "4": "Advertising, apps, and stores often rely on this bias. Messages like “limited-time offer,” “only a few left,” or “don’t miss out” work because they trigger the feeling of an imminent loss. Free trials are powerful for a similar reason: once something feels like it is already ours, giving it up hurts more than getting it felt good. This links to the endowment effect, valuing what we own, or think we own, more highly.",
+   "5": "Loss aversion cannot be erased, but it can be managed. A useful first step is to reframe the choice: instead of asking, “What might I lose?” ask, “What is the cost of not changing?” It also helps to set clear rules in advance, like when to sell an investment or stop a project. Writing down scenarios, probabilities, and alternatives reduces the immediate emotional reaction. A pause often lowers reactivity and improves balance."
+  },
+  "it": {
+   "0": "In psicologia questo fenomeno si chiama avversione alla perdita. Significa che, a parità di valore, una perdita pesa nella mente più di un guadagno equivalente: se trovi 20 euro provi soddisfazione, ma se li perdi il disagio tende a essere più intenso e duraturo. Kahneman e Tversky mostrarono che non valutiamo risultati e rischi in modo perfettamente razionale: il cervello tratta le perdite come allarmi prioritari.",
+   "1": "Dal punto di vista evolutivo, evitare danni immediati poteva contare più che inseguire benefici incerti. Perdere cibo, territorio, alleati o sicurezza poteva avere conseguenze gravi, mentre un guadagno extra non sempre cambiava la sopravvivenza. Per questo il sistema nervoso si è probabilmente affinato nel dare più peso alle minacce che alle opportunità, e oggi usa ancora questa scorciatoia antica.",
+   "2": "L’avversione alla perdita influenza molte scelte comuni. Può spingerti a non vendere un investimento in calo per non “cristallizzare” la perdita, a tenere oggetti inutili solo per non sentirti di perdere qualcosa, o a rifiutare un cambiamento vantaggioso per ciò che potresti lasciare. Nelle trattative conta anche come presenti una scelta: “evitare una perdita” convince spesso più di “ottenere un vantaggio”.",
+   "3": "Non esiste un singolo “pulsante della perdita”, ma diversi sistemi cerebrali partecipano alla risposta. Studi di neuroimaging mostrano che aree coinvolte nell’emozione, nell’attenzione e nella valutazione del valore economico e personale reagiscono molto quando percepiamo un possibile danno. Anche il corpo accompagna questa vigilanza: tensione, battito accelerato e più attenzione ai segnali negativi.",
+   "4": "Pubblicità, piattaforme e negozi sfruttano spesso questa tendenza. Frasi come “offerta in scadenza”, “ultimi posti” o “non perdere questa occasione” funzionano perché attivano l’idea di una perdita imminente. Anche le prove gratuite sono potenti: quando qualcosa sembra già nostro, rinunciarvi pesa più del piacere iniziale di ottenerlo. C’entra anche l’endowment effect, che ci fa dare più valore a ciò che possediamo o percepiamo come nostro.",
+   "5": "L’avversione alla perdita non si elimina, ma si può gestire. Un primo passo è riformulare la scelta: invece di chiederti “cosa potrei perdere?”, prova a domandarti “qual è il costo di non cambiare?”. Aiuta anche decidere in anticipo regole chiare, come una soglia oltre la quale vendere un investimento o interrompere un progetto. Una pausa spesso abbassa la reattività e rende più equilibrata la valutazione."
+  }
+ },
+ "v8-the-silk-road-wasn-t-a-road": {
+  "en": {
+   "0": "The phrase “Silk Road” sounds like a single route drawn across a map. In fact, the German geographer Ferdinand von Richthofen coined it only in the nineteenth century to describe ancient links connecting Asia, the Middle East, Africa, and Europe. People in antiquity did not use the name, and few traveled the whole distance. Most merchants moved in stages, passing goods from city to city.",
+   "1": "There was no single master route. Caravan tracks crossed Central Asia, paths skirted the Taklamakan Desert, and sea lanes ran through the Red Sea and the Indian Ocean. Samarkand, Bukhara, Merv, Kashgar, and Xi’an were hubs, not endpoints. Merchants chose by safety, tolls, weather, and politics. If one section turned dangerous, trade shifted. That flexibility was the Silk Road’s real strength.",
+   "2": "Chinese silk was a prized luxury, especially among Roman and Byzantine elites, but it was only part of the exchange. These routes carried spices, horses, glass, paper, tea, porcelain, carpets, precious stones, ivory, and metals. They also moved techniques and knowledge: papermaking spread westward from China, while artistic styles, decorative motifs, and agricultural practices traveled in many directions.",
+   "3": "Goods were not the only things on the move. Monks, envoys, pilgrims, artisans, and interpreters traveled the same routes. Buddhism moved from India into China through Central Asia; Islam spread into many trading cities; Nestorian Christianity reached remarkably distant regions. Constant contact encouraged translation, borrowed words, and cultural mixing. Its most lasting cargo may have been conversation itself.",
+   "4": "The same network that sped up trade could also spread danger. Among the worst were diseases and parasites carried by people, animals, and cargo. Many historians link the fourteenth-century plague known as the Black Death to the density of Eurasian connections, though the exact pathways remain debated. Caravans and ships carried not just wealth, but contagion too.",
+   "5": "The Silk Road is often imagined as an ancient phenomenon that ended with the Middle Ages. In reality, its routes kept changing, but connections between Europe and Asia continued in new forms. After the fifteenth century, maritime trade became increasingly important without fully erasing overland links. Today the phrase also serves politics and economics, evoking new infrastructure linking Asia, Africa, and Europe."
+  },
+  "it": {
+   "0": "L’espressione “Via della Seta” fa pensare a un percorso preciso. In realtà è un nome coniato nell’Ottocento dal geografo tedesco Ferdinand von Richthofen per descrivere antichi collegamenti tra Asia, Medio Oriente, Africa ed Europa. I mercanti non la chiamavano così e raramente facevano tutto il tragitto: viaggiavano per tratti, passando merci da una città all’altra. Per questo gli storici parlano di una rete di vie commerciali, terrestri e marittime.",
+   "2": "La seta cinese era un bene di lusso molto richiesto, soprattutto dalle élite romane e bizantine, ma era solo una parte dello scambio. Lungo queste rotte circolavano spezie, cavalli, vetro, carta, tè, porcellana, tappeti, pietre preziose, avorio e metalli. Viaggiavano anche tecniche e saperi: la carta si diffuse dalla Cina verso ovest, mentre stili artistici, motivi decorativi e innovazioni agricole passavano di mano in mano.",
+   "3": "Le merci non erano l’unica cosa in movimento. Sulle stesse vie si spostavano monaci, ambasciatori, pellegrini, artigiani e interpreti. Il buddhismo viaggiò dall’India alla Cina attraverso l’Asia centrale; l’islam si diffuse in molte città commerciali; il cristianesimo nestoriano raggiunse regioni lontanissime. Questi incontri favorivano traduzioni, prestiti linguistici e mescolanze culturali. Nelle oasi e nei caravanserragli si negoziava, si mangiava e si imparavano usanze nuove.",
+   "5": "Spesso immagini la Via della Seta come un fenomeno antico finito con il Medioevo. In realtà le sue rotte cambiarono più volte, ma i collegamenti tra Europa e Asia continuarono sotto altre forme. Dopo il Quattrocento le vie marittime divennero sempre più importanti, senza cancellare del tutto quelle terrestri. Oggi l’espressione si usa anche in politica ed economia per evocare nuove infrastrutture tra Asia, Africa ed Europa. La sua vera eredità è questa rete di connessioni, ancora attualissima."
+  }
+ },
+ "v8-what-happened-to-the-voyager-probes-beyond-the-solar-sys": {
+  "it": {
+   "5": "Le Voyager non si fermeranno: continueranno a orbitare attorno al centro della Via Lattea per tempi immensamente più lunghi della civiltà umana. Tra circa 40.000 anni Voyager 1 passerà relativamente vicino a Gliese 445; Voyager 2, su un’altra rotta, si avvicinerà fra decine di migliaia di anni a Ross 248. Molto prima smetteranno di parlare: gli ultimi strumenti scientifici potrebbero operare fino ai primi anni 2030. A bordo portano anche il Golden Record, una bottiglia cosmica lanciata nel buio."
+  }
+ },
+ "v8-who-invented-the-weekend": {
+  "it": {
+   "0": "Per gran parte della storia, l’idea di due giorni liberi consecutivi non esisteva. Nelle società agricole si lavorava seguendo stagioni, luce e meteo, con pause legate alle feste religiose più che a un calendario fisso. Anche nelle città preindustriali il riposo variava tra artigiani, mercanti e servi. C’erano giorni sacri, mercati, fiere e festività, ma non il “weekend” come lo intendiamo oggi.",
+   "1": "Il primo pilastro del futuro weekend fu il giorno di riposo religioso. Nella tradizione ebraica era il sabato, lo Shabbat; in quella cristiana divenne la domenica, legata alla resurrezione di Cristo. Nell’Impero romano, nel 321, Costantino stabilì che il “giorno del sole” fosse giorno di riposo per molti abitanti delle città, anche se non per tutti i lavori. Ma era una pausa morale e religiosa, non ancora tempo di svago.",
+   "2": "Con la rivoluzione industriale cambiò tutto. Il lavoro entrò in orari rigidi, scanditi da sirene, turni e catene produttive. Nell’Ottocento si lavorava spesso sei giorni, talvolta anche di più, con giornate lunghissime. Proprio questa durezza rese il riposo settimanale una questione politica: si chiesero meno ore, sabato più corto e una netta separazione tra lavoro e tempo personale. Il “Saturday half-holiday” fu il ponte verso due giorni consecutivi.",
+   "3": "Uno dei passaggi decisivi avvenne negli Stati Uniti tra fine Ottocento e primo Novecento. Molti lavoratori ebrei osservavano il sabato come giorno sacro, ma il sistema industriale richiedeva spesso presenza anche quel giorno; se poi si assentavano la domenica, non avevano tutela. In alcune aziende si iniziarono così a concedere due giorni consecutivi di riposo. Per molti storici, la convivenza tra Shabbat e domenica cristiana fu uno dei motori concreti del weekend moderno.",
+   "4": "Il weekend si consolidò davvero quando le grandi imprese capirono che poteva convenire anche economicamente. Nel 1926 Henry Ford introdusse per i suoi operai una settimana di cinque giorni in molte fabbriche, senza ridurre drasticamente il salario. Non fu solo generosità: lavoratori più riposati erano spesso più efficienti, e più tempo libero significava più occasioni di consumo. Negli anni Trenta e Quaranta il modello prese piede e il weekend diventò una norma sociale.",
+   "5": "Oggi il fine settimana sembra naturale, ma non è universale né uguale ovunque. In molti settori, dalla sanità alla ristorazione, dai trasporti al commercio, si lavora proprio quando altri si fermano. Inoltre i giorni di riposo cambiano secondo religioni e paesi: in alcuni stati il weekend è venerdì-sabato, in altri sabato-domenica, e talvolta gli assetti sono cambiati di recente per allinearsi ai mercati globali. Perciò il weekend resta una costruzione storica, da difendere e ridefinire."
+  }
+ },
+ "v8-why-are-some-beaches-black-and-others-white": {
+  "it": {
+   "2": "Le spiagge nere sono tipiche delle zone vulcaniche, come Islanda, Hawaii, Canarie o alcune coste del Mediterraneo. Qui la sabbia nasce dalla frantumazione di rocce laviche scure, soprattutto basalto, ricco di pirosseni, olivina e magnetite. Quando la lava tocca il mare o si raffredda all’aria, si spezza e col tempo diventa granuli fini. Il nero riflette la composizione della roccia e queste spiagge assorbono più calore di quelle chiare.",
+   "3": "Anche se il materiale di partenza è chiaro o scuro, il risultato finale dipende da molti fattori. Le onde selezionano i granelli per peso e dimensione, le correnti li spostano lungo la costa e i fiumi possono rifornire la spiaggia di nuovi sedimenti. Così un tratto sabbioso può cambiare colore nel tempo o avere fasce diverse nello stesso luogo. Conta anche l’erosione delle scogliere vicine, e la sabbia bagnata appare più scura.",
+   "4": "Oltre al bianco e al nero esistono spiagge rosa, rosse, verdi e perfino violacee. Il rosa può nascere da minuscoli organismi con guscio rossastro, come alcuni foraminiferi, mescolati a sabbia chiara. Il verde è raro e spesso legato all’olivina, un minerale vulcanico trasparente tendente al verde oliva. Le tonalità rosse o aranciate possono derivare da frammenti ricchi di ferro o da coralli particolari. Spesso questi colori non sono uniformi.",
+   "5": "Il colore di una spiaggia non è solo bello: è fragile. Se porti, dighe o barriere alterano il trasporto dei sedimenti, l’equilibrio cambia e la spiaggia può restringersi o trasformarsi. Anche estrazione di sabbia, turismo intensivo e innalzamento del livello del mare accelerano la perdita. Nelle spiagge coralline, sbiancamento e degrado delle barriere riducono una principale fonte di sabbia chiara."
+  }
+ },
+ "v8-why-do-dogs-tilt-their-heads-when-you-talk-to-them": {
+  "en": {
+   "3": "In studies of dogs especially skilled at recognizing the names of objects, head tilting often appeared when they heard a familiar word just before fetching the correct item. That suggests the gesture is linked not only to hearing, but also to mental processing of meaningful information. A dog may tilt its head when connecting a sound to a memory or expected action.",
+   "4": "There may be a social component too. Dogs are extremely good at watching people and learning which behaviors trigger attention, smiles, and warm voices. If a head tilt earns a positive reaction, it may be reinforced over time. That does not make it fake: it can begin spontaneously and become more frequent because it works well in interaction. Some dogs also seem more likely to tilt when a person speaks directly to them in an emotional or expressive tone.",
+   "5": "Usually, head tilting is normal and harmless. But if it appears suddenly, becomes extreme, or comes with loss of balance, unusual eye movements, ear irritation, or disorientation, it can point to a medical issue such as an ear infection or a vestibular disorder. Then it should not be treated as a cute quirk, but as a sign worth checking with a veterinarian. Most of the time, though, it is simply a small window into a dog’s mind."
+  },
+  "it": {
+   "2": "C’è poi una spiegazione visiva: il muso del cane potrebbe ostacolare in parte la vista della parte bassa del tuo volto, soprattutto della bocca. Inclinando la testa, alcuni cani potrebbero migliorare l’angolo di visuale e leggere meglio i segnali facciali che accompagnano la voce. Per loro comunicazione sonora e visiva vanno spesso insieme. Questa idea è stata proposta da ricercatori, anche se da sola non spiega tutti i casi."
+  }
+ },
+ "v8-why-do-jpeg-photos-lose-quality-every-time-you-save-them": {
+  "en": {
+   "2": "Every time you save as JPEG, the software decodes the compressed image into pixels and then recompresses it. It cannot restore data discarded earlier, and it may add fresh rounding errors and new simplifications in the image blocks. The result is generational loss: quality drops with each edit-and-save cycle. At high quality the damage may stay modest; at medium or low quality, halos, jagged edges, blotches in smooth skies, and reduced sharpness in hair, skin, or text appear quickly.",
+   "4": "Not every action harms a photo the same way. If you open a JPEG and close it without saving, nothing changes. Some programs can also rotate or apply limited edits without recompressing in specific cases, though not always. And a single save at very high quality often causes a loss that is hard to notice. The real problem is repetition, especially with automatic settings or low quality levels, which is why photographers keep a master file in RAW, TIFF, or PSD and create the JPEG only at the end.",
+   "5": "The practical rule is simple: always edit from the original and keep working versions in a format that does not throw data away. If you shoot in RAW, keep that as your main archive. If you are working from a finished image, use TIFF, PNG, or your editor’s layered format. Export to JPEG only for the final copy meant for the web, social media, or email. Renaming versions helps prevent overwriting the wrong file, and avoiding repeated tiny edit-save-reopen-resave cycles over many days also helps."
+  },
+  "it": {
+   "2": "Ogni volta che salvi in JPEG, il software decodifica l’immagine compressa, la ritrasforma in pixel e poi la ricomprime. I dati eliminati non tornano, e si aggiungono nuovi arrotondamenti e semplificazioni: è un degrado generazionale. Se la qualità è alta, il danno può restare discreto; se è media o bassa, compaiono presto aloni, contorni seghettati, macchie nei cieli uniformi e perdita di nitidezza.",
+   "3": "I difetti del JPEG hanno spesso un aspetto riconoscibile. C’è il “blocking”, cioè quadratini o griglie sottili nelle aree uniformi, perché la compressione lavora a blocchi; il “ringing”, piccoli aloni attorno ai bordi netti; e il “banding”, quando passaggi morbidi, per esempio in un tramonto, diventano strisce visibili. Anche il rumore può cambiare aspetto e i dettagli minuti impastarsi. Sul telefono sembrano minimi, ma in stampa o su monitor grandi emergono chiaramente.",
+   "4": "Non ogni operazione rovina una foto allo stesso modo. Se apri un JPEG e lo chiudi senza salvarlo, non cambia nulla; alcuni programmi possono anche ruotare o fare semplici modifiche “senza ricompressione” in casi specifici. Un solo salvataggio a qualità molto alta spesso è quasi impercettibile. Il problema vero è ripetere, specie con automatico o qualità basse: per questo i fotografi tengono un master non distruttivo, come RAW, TIFF o PSD, e creano il JPEG solo alla fine.",
+   "5": "La regola pratica è semplice: modifica sempre dall’originale e salva le versioni di lavoro in un formato che non perda dati. Se scatti in RAW, tienilo come archivio principale; se lavori su un’immagine pronta, usa TIFF, PNG o il formato del tuo editor con livelli. Esporta in JPEG solo l’ultima copia per web, social o mail. Anche rinominare le versioni aiuta a non sovrascrivere il file sbagliato."
+  }
+ },
+ "v8-why-do-rockets-almost-always-launch-toward-the-east": {
+  "it": {
+   "3": "Dire “quasi sempre” è importante, perché le eccezioni sono molte. Se un satellite deve entrare in un’orbita polare, passando sopra i poli, lanciare verso nord o sud è spesso la scelta giusta. Queste orbite sono ideali per osservazione della Terra, meteorologia e telerilevamento, perché sorvolano tutto il pianeta. In altri casi si può perfino lanciare verso ovest, ma serve più energia.",
+   "5": "I lanci verso est sono particolarmente utili per raggiungere orbite equatoriali come la geostazionaria, a circa 35.786 chilometri di quota. In quell’orbita un satellite gira alla stessa velocità angolare della Terra e sembra fermo sopra lo stesso punto: è perfetta per telecomunicazioni e meteo. Conviene quindi partire già nella direzione della rotazione terrestre e, se possibile, da basse latitudini."
+  }
+ },
+ "v8-why-do-songs-get-stuck-in-your-head": {
+  "en": {
+   "0": "When a tune keeps replaying in your mind, psychologists call it an “earworm.” Despite the strange name, it is usually not a medical problem at all. It is a very common, brief, harmless experience, often involving short, catchy fragments, especially choruses. It can start after hearing a song, talking about it, or seeing a cue that reminds you of it. Earworms show how memory, attention, and prediction keep working in the background.",
+   "1": "Songs stick because the brain loves patterns that are easy to encode and predict. A tune with a clear beat, repetition, and a few small surprises is ideal: simple enough to remember, but not so plain that it gets ignored. When the music stops, the mind can continue the sequence internally, almost as if finishing an unfinished musical sentence. This relies on auditory working memory. The more distinctive and familiar a passage is, the more likely it is to pop back up later.",
+   "2": "You do not need to hear a whole song for the loop to begin. Often a tiny cue is enough: a word, a place, a mood, an ad, or a similar rhythm. Repetition matters too, because frequently heard music is more likely to return. Earworms also appear during low-demand moments, such as showering, walking, or doing routine tasks. When attention is not fully occupied, the mind wanders and retrieves what is recent and accessible, including melodies.",
+   "3": "Earworms do not affect everyone in exactly the same way. Some studies suggest that people who are more engaged with music, listen often, or notice fine sound details may report them more. Vivid imagination and a tendency toward repetitive thinking may also make them more likely, without making them harmful. Emotion matters too: songs linked to people, memories, or life periods have more routes into memory. The brain also tends to hold on to material that feels incomplete.",
+   "4": "Most earworms go away on their own, but a few strategies can help. One is to load working memory with another task, such as focused reading or an activity that needs concentration. Another is to listen to the song all the way through, because finishing it can reduce the mind’s urge to keep replaying it. Replacing it with a different tune may work too, though it can create a new earworm. Chewing may also interfere with subvocal rehearsal, the inner “singing” that maintains the loop.",
+   "5": "Songs that lodge in the mind reveal something deep about the human brain: perception is not passive. We constantly predict, complete, and reuse patterns, and music is especially good at exploiting this because it mixes regularity, surprise, and emotion. That is why a chorus can become more than a sound: it turns into a tiny mental simulation that restarts by itself. In most cases, an earworm is just a side effect of the brain’s skill at learning patterns and recalling them quickly."
+  },
+  "it": {
+   "0": "Quando una melodia continua a ripetersi nella mente, gli psicologi parlano di “earworm”, letteralmente “verme dell’orecchio”. Di solito non è un problema clinico: è un’esperienza comune, breve e innocua. Compare spesso con frammenti semplici, soprattutto ritornelli, dopo aver ascoltato una canzone, averne sentito parlare o persino letto una parola che la richiama. Così memoria, attenzione e previsione lavorano insieme: il cervello non “subisce” la musica, continua a elaborarla.",
+   "1": "Le canzoni restano in testa perché il cervello ama schemi facili da codificare e prevedere. Una melodia con ritmo chiaro, ripetizioni e piccoli scarti rispetto all’atteso è ideale: semplice da memorizzare, ma non così banale da essere ignorata. Se il brano si interrompe, la mente può continuarlo internamente. C’entra la memoria di lavoro uditiva.",
+   "2": "Non serve ascoltare tutta la canzone perché inizi il loop. Spesso basta un indizio: una parola, un luogo, un’emozione, una pubblicità o un ritmo simile. Conta anche la frequenza, ma non solo. Gli earworm compaiono più facilmente nei momenti di bassa richiesta mentale, come sotto la doccia, mentre cammini o durante compiti automatici, quando la mente vaga e recupera melodie recenti.",
+   "3": "Gli earworm non colpiscono tutti allo stesso modo. Alcune ricerche suggeriscono che chi ha più familiarità con la musica, ascolta spesso canzoni o presta attenzione ai dettagli sonori possa notarli di più. Anche immaginazione vivida e tendenza al pensiero ripetitivo possono favorirli. Contano pure i legami emotivi e ciò che non è “chiuso”, come una melodia interrotta o un finale atteso.",
+   "4": "Di solito passano da soli, ma alcuni trucchi possono aiutare. Puoi occupare la memoria di lavoro con un altro compito, come leggere con attenzione o fare qualcosa che richieda concentrazione. A volte aiuta ascoltare davvero la canzone fino alla fine, o sostituirla con un’altra melodia, senza crearne un nuovo earworm. Anche masticare può interferire con il “canto interiore” che tiene vivo il loop.",
+   "5": "Le canzoni che si incastrano nella mente mostrano qualcosa di profondo sul cervello umano: percepire non è solo ricevere stimoli, ma anticiparli, completarli e riusarli. La musica sfrutta bene questa tendenza, unendo regolarità, sorpresa ed emozione. Nella maggior parte dei casi è solo un effetto collaterale della nostra abilità di apprendere schemi e richiamarli rapidamente."
+  }
+ },
+ "v8-why-do-we-drive-on-the-right-and-the-british-on-the-left": {
+  "en": {
+   "4": "Today, the side of the road also shapes where the steering wheel goes. In right-driving countries, it is usually on the left so drivers can better judge the center line and overtake safely; in left-driving countries, the reverse is true. Neither side is inherently safer. What matters is consistency across the whole system: signs, intersections, markings, vehicle design, and driver habits."
+  },
+  "it": {
+   "0": "Per secoli, molto prima delle auto, il problema era già reale: da che parte passare su strade strette e affollate? In Europa medievale molti viaggiatori tenevano la sinistra: la maggioranza era destrorsa, quindi così lasciava la mano destra libera per salutare, difendersi o impugnare una spada contro chi arrivava. Anche montare a cavallo era più semplice da sinistra. Non c’era una regola universale, ma la tendenza era diffusa in molte regioni europee.",
+   "1": "Tra Seicento e Settecento, in alcune zone continentali cambiò tutto per colpa dei grandi carri da trasporto. I conducenti spesso cavalcavano il cavallo posteriore sinistro per tenere libera la mano destra con la frusta. Così controllavano meglio il bordo della strada se il carro viaggiava sulla destra, valutando distanze da incroci e veicoli in arrivo. Nei territori agricoli e commerciali della Francia e poi degli Stati Uniti questa soluzione prese forza.",
+   "2": "La Rivoluzione francese rese la scelta anche politica. Prima, aristocratici e cocchieri di rango tendevano spesso a circolare a sinistra, mentre il popolo manteneva altre abitudini locali. Con il crollo dell’Antico Regime, uniformare il traffico servì a cancellare differenze sociali e imporre ordine. Napoleone diffuse poi la circolazione a destra nei territori conquistati o influenzati dall’Impero, e le strade divennero una piccola mappa del potere europeo.",
+   "3": "La Gran Bretagna seguì un’altra strada, in tutti i sensi. L’abitudine a stare a sinistra era già forte e fu regolata presto: nel 1773 il General Highways Act la riconobbe sulle strade britanniche, e nel 1835 la rese obbligatoria in modo più chiaro. Essendo un’isola, il Regno Unito subì meno pressioni a uniformarsi ai vicini continentali. Quando costruì il suo impero, esportò questo sistema in molte colonie e domini, dall’India all’Australia, alla Nuova Zelanda e al Sudafrica.",
+   "4": "Oggi il lato di marcia determina anche la posizione del volante. Nei paesi dove si guida a destra, il volante sta di solito a sinistra per vedere meglio la linea centrale e sorpassare con più sicurezza; dove si guida a sinistra avviene il contrario. Non esiste un lato intrinsecamente più sicuro: conta la coerenza del sistema, dalla segnaletica agli incroci fino ai riflessi dei guidatori. Cambiare lato è difficilissimo e costoso, quindi quasi nessun paese lo fa più.",
+   "5": "Oggi circa due terzi della popolazione mondiale vive in paesi che guidano a destra, e la maggior parte degli stati ha adottato questo standard. Però una parte importante del pianeta continua a guidare a sinistra, soprattutto in nazioni influenzate dal Regno Unito o dal Giappone, che sviluppò il proprio sistema ferroviario e stradale in quella direzione. Alcuni paesi hanno cambiato lato nel Novecento per allinearsi ai vicini, come la Svezia nel 1967: il Dagen H."
+  }
+ },
+ "v8-why-do-we-shiver-when-we-have-a-fever": {
+  "en": {
+   "0": "Your body keeps its temperature in a very narrow range, usually around 37 °C, thanks to the hypothalamus, a small region of the brain. This internal thermostat compares your actual temperature with the target and triggers heat loss or heat production. When you are hot, you sweat and skin blood vessels widen; when you are cold, those vessels tighten and your muscles may tremble.",
+   "1": "During an infection, the immune system releases pyrogens, including some cytokines, that push the hypothalamus to raise the set point, the body’s target temperature. So even if you are still around 37 °C or only a bit above it, the brain reads that as too low. That is why you can feel freezing while your temperature is climbing. Fever is a deliberate reset of the thermostat.",
+   "2": "When the brain wants to raise temperature, it starts heat-saving and heat-making strategies. One of the fastest is shivering: rapid, involuntary contractions of skeletal muscles. Those contractions use energy and release heat, like an engine idling. At the same time, skin blood vessels narrow, so less heat escapes, and you may get cold hands, goose bumps, and feel you just cannot get warm.",
+   "3": "Shivering usually eases once the body reaches the new set point chosen by the hypothalamus. Then you no longer feel too cold relative to the brain’s target, even though you still have a fever. Later, when the infection starts settling or fever-reducing medicine lowers the set point, the process reverses. Now the body is too warm, so it widens skin blood vessels and triggers sweating.",
+   "4": "Fever is a common biological response and is often helpful: it can make conditions less favorable for some microbes and support certain immune functions. But it should not be romanticized. Very high temperatures, dehydration, severe discomfort, or particular medical conditions deserve medical attention, especially in infants, older adults, and medically fragile people.",
+   "5": "Not every tremble during illness is true fever shivering. You can also shake from environmental cold, fear, adrenaline, or from a rapid temperature rise, and the sensations can overlap. Very intense episodes, often called rigors, are a stronger version of the same heat-producing response. Blankets may help at first, but after the set point drops, staying bundled up may make you feel even hotter."
+  },
+  "it": {
+   "4": "La febbre è una risposta biologica frequente e spesso utile: può rendere l’ambiente meno favorevole ad alcuni microbi e coordinare meglio certe difese immunitarie. Però non va idealizzata: temperature molto alte, condizioni mediche particolari, disidratazione o un malessere importante richiedono attenzione clinica, soprattutto nei bambini piccoli, negli anziani o nelle persone fragili.",
+   "5": "Non tutti i tremori durante una malattia sono brividi da febbre in senso stretto. A volte si trema per freddo ambientale, paura, adrenalina o per il rapido aumento della temperatura, e i “rigori”, brividi molto intensi e scuotenti, sono una risposta termica più marcata che può comparire in alcune infezioni. Sotto molte coperte puoi sentirti meglio, ma se continui a coprirti quando il set point si abbassa puoi sentirti ancora più accaldato."
+  }
+ },
+ "v8-why-do-we-talk-to-ourselves-and-why-it-s-good": {
+  "en": {
+   "0": "Talking to yourself is more common than it seems. Many people narrate what they are doing, give themselves instructions, rehearse a conversation, or say encouraging words out loud. By itself, this is usually not a sign of psychological trouble, but a normal form of inner language that sometimes becomes audible. It often appears during concentration, stress, planning, or fatigue, helping the mind organize itself more effectively.",
+   "1": "This habit has roots in childhood. Psychologist Lev Vygotsky noticed that children often talk to themselves while playing or solving a task. This “private speech” helps guide action, attention, and self-control. It usually becomes inner speech with age, but when adults speak to themselves out loud, they are often reactivating that same mechanism to structure behavior and thought when demands rise or attention drifts.",
+   "2": "Saying things out loud can improve performance and mental control. Words act like signals that keep a task in the foreground: “first this, then that,” “breathe,” “check again.” Some studies suggest that naming an object can help people find it faster by aligning attention and perception with the goal. In sports, self-talk supports motivation, rhythm, and precision. Putting thoughts into words reduces confusion and makes correction easier.",
+   "3": "Not all self-talk helps in the same way. If the tone is harsh, catastrophic, or humiliating, it can increase anxiety and discouragement. If it is concrete, realistic, and kind, it is more likely to support emotional regulation and problem-solving. Using your own name, or speaking to yourself in the second person, can create useful distance: “Come on, Maya, focus,” or “you can handle this.” The goal is guidance, not empty positive slogans.",
+   "4": "Talking to yourself can be especially useful when you need to remember a sequence, make a decision, calm down, prepare for a challenge, or stay focused in a distracting environment. That is why people do it while cooking, driving, studying, looking for their keys, or handling a difficult task. Older adults may also use it to support working memory. The key difference from external voices is control: you recognize the voice as your own.",
+   "5": "The surprising part is that talking to yourself is not just emotional release: it can work like a low-cost mental technology. It turns vague thoughts into audible instructions, makes mistakes easier to notice, and gives goals and feelings a steadier shape. At certain moments, saying a sentence out loud is like building a cognitive handrail. Not everyone does it equally often, but the principle is simple: language can regulate the mind that produces it."
+  },
+  "it": {
+   "0": "Parlare da soli è più comune di quanto sembri. Molte persone commentano ciò che fanno, si danno istruzioni, ripassano una conversazione o si incoraggiano ad alta voce. Non è automaticamente un segnale di disagio psicologico: nella maggior parte dei casi è una forma normale di linguaggio interno che ogni tanto esce fuori. La mente usa il linguaggio anche per organizzare meglio se stessa.",
+   "1": "Questa abitudine ha radici nello sviluppo infantile. Il grande psicologo Lev Vygotskij osservò che i bambini parlano spesso da soli mentre giocano o risolvono un compito. Quel “linguaggio privato” serve a guidare azioni, attenzione e autocontrollo. Da adulti, quando torni a parlare da solo ad alta voce, spesso riattivi lo stesso meccanismo di guida.",
+   "2": "Dire le cose ad alta voce può migliorare prestazione e controllo mentale. Le parole funzionano come segnali che tengono il compito in primo piano: “prima questo, poi quello”, “respira”, “controlla bene”. Alcuni studi mostrano che nominare un oggetto può aiutare a trovarlo più in fretta. Verbalizzare riduce la confusione, scandisce i passaggi e facilita le correzioni.",
+   "3": "Non tutto il self-talk fa bene allo stesso modo. Se il tono è duro, catastrofico o umiliante, può aumentare ansia e scoraggiamento. Se invece è concreto, realistico e gentile, tende a favorire regolazione emotiva e problem solving. Parlarti usando il tuo nome o la seconda persona può creare una piccola distanza psicologica utile, soprattutto sotto stress.",
+   "4": "Parlare da soli può essere utile quando devi ricordare una sequenza, prendere una decisione, calmarti, prepararti a una prova o restare focalizzato tra le distrazioni. Per questo molti lo fanno mentre cucinano, guidano, studiano, cercano le chiavi o affrontano un compito difficile. La differenza principale è il senso di controllo: nel self-talk normale sai che quella voce è tua.",
+   "5": "La parte più sorprendente è che parlare da soli non serve solo a “sfogarsi”: può essere una vera tecnologia mentale a basso costo. Trasforma pensieri vaghi in istruzioni udibili, rende visibili gli errori e dà una forma più stabile a obiettivi ed emozioni. Il principio è semplice: il linguaggio può regolare la mente che lo produce."
+  }
+ },
+ "v8-why-does-a-charger-stay-warm-even-when-it-s-charging-not": {
+  "en": {
+   "4": "On your electric bill, a charger left plugged in all the time usually has only a tiny impact, but its consumption is not literally zero. International efficiency rules have pushed manufacturers to reduce standby power, and many newer models draw only minute amounts when idle. Still, across millions of homes and countless always-plugged adapters, that small waste becomes meaningful. Unplugging can make sense, especially for older or very cheap chargers."
+  }
+ },
+ "v8-why-does-a-stranger-s-face-instantly-seem-likeable-or-no": {
+  "en": {
+   "0": "When you meet a new face, the brain forms a first impression in a fraction of a second. It does not wait to learn the person’s actual character: it uses fast shortcuts to guess whether they seem friendly, competent, threatening, or tired. This is not a precise reading of identity but a rapid prediction from visual cues. Research shows people often agree, even when photos appear only briefly.",
+   "1": "The brain is not simply judging beauty: it is detecting patterns. It notices eye shape, mouth curvature, spacing of features, eyebrow angle, and overall symmetry. Lowered brows and a strong jaw may seem more dominant; large eyes and softer features less threatening or warmer. Even a hint of a smile can shift judgment a lot. These signals become dimensions like trustworthiness and strength, useful but error-prone.",
+   "2": "You are more likely to like a face when it feels familiar somehow. That does not mean you have truly seen it before: it may resemble common traits in your surroundings, your family, or the faces you meet often. In psychology, this connects to the mere exposure effect: what feels familiar tends to seem safer and more pleasant. Cultural learning matters too, so the same face can provoke slightly different reactions in different social settings.",
+   "3": "First impressions of faces are not neutral. Perceived age, gender, ethnicity, signs of fatigue, skin, facial weight, or scars can trigger learned stereotypes, often without awareness. No bad intent is required: many biases are automatic and cultural. Yet these snap judgments shape real decisions, from friendship to job interviews to how you read an ambiguous expression. An instant impression can start to feel like fact, even when it is only a fragile guess.",
+   "4": "Usually less accurate than you think. Some facial cues do convey useful information, such as current emotion or signs of health and fatigue. But inferring honesty, kindness, or stable competence from a photo is far more uncertain. Studies suggest facial impressions often predict how someone will be treated socially, not what they are truly like. Faces shape relationships, but they are not transparent windows into character.",
+   "5": "You cannot stop the brain from forming a first impression, but you can stop it from ruling alone. Slow down, listen to the voice, notice the context, and give real behavior time to appear. Remembering that a neutral face is not a biography also reduces mistakes. In hiring or evaluation, structured tools and clear criteria help limit immediate intuition. Treat a first feeling as a draft: useful for orientation, risky as a final portrait."
+  },
+  "it": {
+   "0": "Quando incontri un volto nuovo, il cervello si fa un’idea in una frazione di secondo. Non aspetta di conoscere il carattere reale: usa scorciatoie per stimare se qualcuno sia amichevole, competente, minaccioso o stanco. Non legge davvero l’identità, fa una previsione veloce da indizi visivi. E persone diverse spesso concordano, anche con foto viste per tempi brevissimi.",
+   "1": "Il cervello non valuta la bellezza in generale: cerca pattern. Guarda forma degli occhi, curvatura della bocca, distanza tra i tratti, inclinazione delle sopracciglia e simmetria complessiva. Sopracciglia abbassate e mascella marcata possono far sembrare un volto più dominante; occhi grandi e lineamenti morbidi più innocui o calorosi. Anche un accenno di sorriso pesa molto.",
+   "2": "Un volto ci piace più facilmente quando ci sembra familiare. Non perché lo abbiamo già visto davvero: basta che ricordi tratti comuni nel nostro ambiente, nella nostra famiglia o nei volti che incontriamo spesso. In psicologia è l’effetto di mera esposizione: ciò che il cervello sente come noto tende a sembrare più sicuro e gradevole. Anche la cultura pesa, quindi la stessa faccia può suscitare reazioni diverse.",
+   "3": "Le prime impressioni facciali non sono neutrali. Età, genere, etnia percepita, segni di fatica, pelle, peso del volto o cicatrici possono attivare stereotipi appresi, spesso senza che tu te ne accorga. Non serve cattiva volontà: molti bias sono automatici e culturali. E influenzano decisioni reali, dalle amicizie ai colloqui, fino a come interpreti un’espressione ambigua.",
+   "4": "Molto meno di quanto crediamo. Alcuni tratti del volto dicono davvero qualcosa, per esempio sullo stato emotivo momentaneo o su segni di salute e stanchezza. Ma dedurre onestà, gentilezza o competenza stabile da una foto è molto più incerto. Gli studi mostrano che queste impressioni predicono soprattutto come verremo trattati socialmente, non necessariamente come una persona è davvero.",
+   "5": "Non puoi impedire al cervello di formare una prima impressione, ma puoi evitarle di comandare da sola. Aiuta rallentare, ascoltare la voce, osservare il contesto e dare tempo al comportamento reale di emergere. Nelle situazioni importanti, come selezioni o valutazioni, servono strumenti strutturati e criteri chiari. La prima sensazione è una bozza, non il ritratto definitivo di una persona."
+  }
+ },
+ "v8-why-does-bread-rise-the-chemistry-of-bubbles": {
+  "en": {
+   "4": "Not all bread rises the same way. In sourdough, wild yeasts live alongside lactic acid bacteria, which produce carbon dioxide and organic acids. Those acids affect flavor, aroma, shelf life, and even how gluten behaves. Long fermentation, often at lower temperature, gives enzymes more time to break down starches and proteins, building richer flavors and a more complex crumb.",
+   "5": "If you look at the crumb, you can read what happened during preparation. Large, irregular holes may point to a highly hydrated, well-fermented dough, though they can also reveal shaping flaws. A tight crumb can come from weak gluten development, underproofing, overproofing, or excessive handling. Every bubble records physics, chemistry, and biology."
+  },
+  "it": {
+   "3": "Quando il pane entra in forno, la lievitazione non finisce subito. Nei primi minuti avviene l’oven spring: il calore espande i gas già presenti e accelera temporaneamente l’attività del lievito, finché la temperatura non diventa troppo alta. Intanto l’acqua evapora e il vapore contribuisce alla spinta interna. Poi le proteine del glutine coagulano, gli amidi gelatinizzano e la crosta si asciuga e si colora soprattutto grazie alle reazioni di Maillard.",
+   "4": "Non tutto il pane cresce allo stesso modo. Nel lievito madre convivono lieviti selvatici e batteri lattici, che producono non solo anidride carbonica ma anche acidi organici: così cambiano gusto, profumo, conservabilità e persino il comportamento del glutine. Una fermentazione lunga, spesso più fredda, sviluppa aromi più ricchi e una mollica più complessa, rendendo il pane per molte persone più fragrante e digeribile, senza essere adatto a tutti.",
+   "5": "Guardando la mollica puoi leggere ciò che è accaduto durante la preparazione. Buchi grandi e irregolari possono indicare un impasto molto idratato e ben fermentato, ma anche una formatura imperfetta; una mollica fitta può dipendere da poco glutine, fermentazione scarsa o eccessiva manipolazione. Anche crosta e profumo raccontano trasformazioni molecolari: i composti aromatici di fermentazione e cottura definiscono l’identità del pane. Ogni bolla è un archivio di fisica, chimica e biologia."
+  }
+ },
+ "v8-why-does-coffee-make-some-people-sleepy": {
+  "en": {
+   "0": "Caffeine is a stimulant, but it does not affect everyone the same way. Dose, timing, sleep debt, genetics, medications, age, and daily coffee habits all shape the response. Some people feel alert; others get jitters, a racing heart, or even sleepiness. That does not mean caffeine directly puts the brain to sleep. More often, its effect is too weak, too brief, or outweighed by other processes already underway.",
+   "1": "Throughout the day, the brain builds up adenosine, a molecule that signals the need for rest. The more adenosine binds to its receptors, the stronger tiredness feels. Caffeine does not remove adenosine or create new energy; it mainly occupies those receptors and mutes the sleep signal for a while. But if your sleep debt is large, that may not be enough, and when caffeine fades, the drowsiness can seem suddenly more obvious.",
+   "2": "If you slept poorly, are dehydrated, ate badly, or hit a natural circadian dip, coffee may simply fail to compensate. Many people drink it when they are already exhausted, so it gets blamed when sleepiness follows. Context matters too. If you always have coffee during a break, after lunch, or while sinking into the couch, your brain may link it with relaxing rather than activation.",
+   "3": "Part of the difference is biological. Caffeine is broken down mainly in the liver by an enzyme called CYP1A2, and genetic variants can make that faster or slower. Adenosine receptors also differ somewhat from person to person. On top of that, daily caffeine use can produce tolerance, so the same cup feels weaker. In someone already tired, that muted effect can seem like coffee caused sleepiness, when fatigue is simply no longer masked.",
+   "4": "Caffeine is not always the real culprit. Many coffee drinks come with sugar, cream, syrups, or are consumed with large meals. After a heavy meal, especially one rich in carbohydrates, some people feel less alert because of digestive and hormonal shifts. If sleepiness shows up after a cappuccino and pastry, or coffee at the end of lunch, it is easy to blame coffee instead of the metabolic setting around it.",
+   "5": "If coffee often makes you sleepy, track the pattern. Notice when you drink it, how much sleep you got, whether you had it on an empty stomach or after a meal, and whether you use caffeine every day. For some people, cutting back, changing the timing, or improving baseline sleep helps. If the sleepiness is strong, new, or comes with palpitations, tremor, dizziness, or nighttime insomnia, talking with a doctor may help."
+  },
+  "it": {
+   "0": "La caffeina è uno stimolante del sistema nervoso, ma non agisce uguale per tutti. Dose, orario, sonno accumulato, genetica, farmaci, età e abitudine al caffè cambiano molto la risposta: c’è chi sente energia e vigilanza, chi nervosismo, tachicardia o perfino sonnolenza. Non perché “addormenti” il cervello, ma perché il suo effetto può essere debole, breve o mascherato da altri processi del corpo.",
+   "1": "Durante la giornata il cervello accumula adenosina, una molecola che segnala il bisogno di riposo. Più si lega ai suoi recettori, più cresce la stanchezza. La caffeina non elimina l’adenosina né crea energia nuova: occupa temporaneamente quei recettori e riduce il segnale di sonno. Se però il debito di sonno è forte, il blocco può non bastare. E quando l’effetto cala, la sonnolenza sembra più evidente, come se il caffè smettesse di coprire ciò che c’era già.",
+   "2": "Se hai dormito poco, sei disidratato, hai mangiato male o stai attraversando un calo circadiano, il caffè può non compensare. Molti lo bevono quando sono già molto affaticati: così viene percepito come inefficace o associato al sonno che arriva subito dopo. Conta anche il contesto: se lo prendi sempre in pausa, dopo pranzo o sul divano, il cervello può legarlo a una routine rilassante più che all’attivazione.",
+   "3": "Una parte della differenza è biologica. La caffeina viene metabolizzata soprattutto nel fegato da un enzima chiamato CYP1A2, e le varianti genetiche possono renderne l’eliminazione più rapida o più lenta. Contano anche i recettori dell’adenosina, che non sono identici in tutti. Chi consuma caffeina ogni giorno può sviluppare tolleranza: il cervello si adatta e lo stesso caffè produce meno effetto soggettivo.",
+   "4": "Non sempre è colpa della caffeina. Molte bevande al caffè contengono zucchero, panna, sciroppi o accompagnano pasti abbondanti. Dopo un pasto ricco, specie di carboidrati, alcune persone avvertono un calo di vigilanza per motivi digestivi e ormonali. Se il sonno arriva dopo cappuccino e brioche o dopo un caffè a fine pranzo, è facile dare la colpa al caffè invece che al contesto metabolico. Anche disidratazione o lieve calo di pressione possono contribuire.",
+   "5": "Se il caffè ti fa spesso venire sonno, prova a osservare schema e quantità. Conta quando lo bevi, quanto hai dormito, se l’hai preso a digiuno o dopo un pasto, e se consumi caffeina tutti i giorni. Per alcune persone ridurre l’abitudine, cambiare orario o migliorare il sonno di base modifica molto la risposta. Se la sonnolenza è marcata, nuova o accompagnata da palpitazioni, tremori, capogiri o insonnia notturna, può essere utile parlarne con un medico."
+  }
+ },
+ "v8-why-does-desert-sand-sing": {
+  "it": {
+   "3": "Le dune che cantano non emettono tutte lo stesso suono. Alcune producono note molto basse, attorno a poche decine di hertz; altre arrivano più in alto, ma di solito restano nel registro grave. Le differenze dipendono dalla sabbia, dallo spessore dello strato in movimento, dalla forma della duna e dalla superficie: pendenza giusta favorisce valanghe regolari, ostacoli o croste possono interrompere il fenomeno.",
+   "4": "Il canto delle dune incuriosisce da molto tempo. Viaggiatori, esploratori e studiosi lo descrivono da secoli con immagini vivide: tamburi lontani, organi, tuoni soffocati. In passato qualcuno pensava a cause misteriose o sotterranee; oggi la spiegazione fisica è molto più solida. Restano discussi il ruolo della patina dei granelli e come milioni di particelle entrino in fase.",
+   "5": "Le dune sonore più celebri si trovano in vari deserti del mondo, tra cui il Sahara, la Namibia, il Gobi e alcuni paesaggi del Medio Oriente. Anche alcune spiagge o dune costiere mostrano fenomeni simili, spesso più deboli. Per sentirlo servono sabbia asciutta, granelli adatti e una valanga abbastanza ampia, naturale o provocata dal passaggio di persone sul versante ripido."
+  }
+ },
+ "v8-why-does-helium-give-you-a-cartoon-voice": {
+  "it": {
+   "4": "Anche se la voce buffa fa ridere, respirare elio non è innocuo. Non è tossico, ma può sostituire l’ossigeno nei polmoni e causare ipossia, cioè una carenza di ossigeno, con vertigini, svenimento e, nei casi estremi, conseguenze molto gravi. Il pericolo aumenta se il gas viene inalato direttamente da bombole pressurizzate: la pressione può danneggiare i polmoni o causare embolie gassose potenzialmente fatali.",
+   "5": "L’effetto dell’elio è anche una piccola lezione di fonetica. Mostra che per capire il parlato il cervello non ascolta solo la frequenza fondamentale, ma soprattutto la struttura delle risonanze. Le vocali, per esempio, si distinguono grazie a diverse configurazioni dei formanti. Alterando il mezzo in cui il suono si propaga, l’elio sposta quei segnali e rende una voce familiare quasi irriconoscibile."
+  }
+ },
+ "v8-why-does-hot-water-freeze-faster-than-cold-water": {
+  "en": {
+   "5": "The Mpemba effect remains fascinating because it challenges intuition and shows that even ordinary experiences can hide subtle physics. It is not enough to say hotter water must always take longer. In real systems, the path, the environment, and small starting details matter. Modern experiments show the effect does not appear every time, but it can appear under controlled conditions. It is a great lesson in scientific thinking: avoid slogans, measure carefully, and test assumptions."
+  }
+ },
+ "v8-why-does-moss-grow-on-only-one-side-of-trees-maybe": {
+  "en": {
+   "0": "The idea is everywhere: if you get lost in the woods, find moss on a tree trunk and you’ll know where north is. In reality, moss is not a reliable natural compass. It may appear more on one side, but that comes from microclimate—light, moisture, shade, wind, bark type, and trunk angle—not magnetism or any hidden preference for cardinal directions.",
+   "1": "Mosses are tiny non-vascular plants without deep true roots. They absorb water directly from surfaces and the air, so they thrive where moisture lasts longer: shady, cool, stable places with low evaporation. On a tree, they are not looking for north but for conditions that help them avoid drying out. Even a little more shade or a few degrees can matter enormously.",
+   "2": "In the Northern Hemisphere, the sun tracks across the southern part of the sky, so the south side of a trunk often gets more light, warms up more, and dries faster. The north side may stay cooler and wetter, which helps moss grow. But this is not a universal rule: in a narrow gorge, under a dense canopy, or in a very humid forest, the south side can also support abundant moss.",
+   "3": "Not all trees offer the same home for moss. Bark can be smooth or rough, more acidic or less acidic, good at holding water or quick to shed it. Cracks and grooves collect moisture and dust, helping spores establish. A leaning trunk may channel rainwater down one side, and older, more irregular bark often provides more footholds. So even nearby trees can show very different moss patterns.",
+   "4": "Relying on moss for navigation is risky because you are reading a complex environment with a rule that is too simple. Moss may grow all around a trunk, cluster near the base, or favor the wettest side because of a rock, a slope, splash from water, or another tree’s shadow. What looks like moss may also be lichen or algae. Experienced hikers use many signals together, not a single shortcut.",
+   "5": "The better sentence is not “moss grows on the north side,” but “moss grows where microclimate favors it.” That is less poetic, but more accurate. Watching where moss appears can still teach you a lot: which surfaces stay wetter, which areas get less sun, and how a forest creates tiny ecological niches. Moss is a living sensor of environmental conditions, and proof that nature rarely follows rigid rules."
+  },
+  "it": {
+   "4": "Affidarti al muschio per orientarti è rischioso: applichi una regola troppo semplice a un ambiente complesso. Può crescere tutto intorno al tronco, stare alla base o sul lato più bagnato per una roccia vicina, una pendenza, uno spruzzo d’acqua o l’ombra di un altro albero. Dopo piogge frequenti le differenze si attenuano. Inoltre ciò che sembra muschio può essere lichene o alghe. Gli escursionisti esperti usano molti segnali insieme, non una sola scorciatoia mnemonica."
+  }
+ },
+ "v8-why-does-the-colosseum-have-holes-in-its-walls": {
+  "en": {
+   "0": "At first glance, the holes in the Colosseum’s walls look like ordinary erosion, but many have a specific cause. In Roman times, metal elements—especially iron clamps and pins—were inserted between blocks of travertine to connect the stones and stabilize the structure. Later, these pieces were removed, leaving visible cavities: traces of how the amphitheater was built and then partly dismantled like an enormous urban quarry.",
+   "1": "The Colosseum was built with advanced techniques. The great outer blocks of travertine were not held together by weight alone: in many places they were joined by metal clamps fitted into carefully cut slots. These helped distribute stress and keep the masonry aligned. When the metal was removed, its imprint remained, often as an elongated or rectangular cavity. Not every hole comes from this system, but many do.",
+   "2": "From the Middle Ages onward, the Colosseum lost its original function and became a huge source of reusable materials. Iron was valuable and could be melted down for other purposes, so many metal fittings were extracted from the masonry. Stone blocks too were reused in palaces, churches, and other buildings across Rome. The amphitheater became a quarry, and its holes are signs of a recycling economy.",
+   "3": "The holes alone do not explain the Colosseum’s appearance. Earthquakes also played a major role, especially those in 443, 847, 1231, and 1349, which caused serious damage. The south side of the outer ring, less stable because of ground conditions, largely collapsed. That made it easier to remove materials and sped up the stripping of the monument. Its incomplete silhouette comes from disaster, abandonment, and systematic salvage over centuries.",
+   "4": "A closer look shows that the cavities in the Colosseum do not all share the same origin. Some are housings for metal clamps; others come from missing stone blocks, weathering, ancient or modern repairs, or scaffolding and anchors used over time to stabilize the structure. Pollution and erosion have also worn away surfaces. For archaeologists, telling these marks apart is essential, because each may belong to a different phase in the monument’s long life.",
+   "5": "Paradoxically, these signs of loss helped create the Colosseum’s lasting appeal. From the Renaissance onward, artists, travelers, and scholars admired it not only as a Roman masterpiece, but also as a ruin heavy with memory. The holes, gaps, collapses, and missing sections make time visible in an almost physical way. What you see is not just an ancient amphitheater, but centuries of use, neglect, stripping, care, and survival."
+  },
+  "it": {
+   "4": "Osservando bene, capisci che le cavità del Colosseo non hanno tutte la stessa origine. Alcune sono alloggiamenti di graffe metalliche; altre dipendono dalla perdita di blocchi, dal degrado della pietra, da restauri antichi o moderni, oppure da ponteggi e ancoraggi usati nei secoli per consolidare la struttura. Anche inquinamento ed erosione hanno consumato le superfici. Per gli archeologi distinguerli è fondamentale: ogni foro può raccontare una fase diversa della vita del monumento.",
+   "5": "Paradossalmente, proprio questi segni di sottrazione hanno contribuito al fascino del Colosseo. Dal Rinascimento in poi artisti, viaggiatori e studiosi lo hanno ammirato non solo come capolavoro romano, ma anche come rovina carica di memoria. Buchi, vuoti, crolli e parti mancanti rendono quasi fisico il passaggio del tempo. Oggi il Colosseo non è importante malgrado quelle ferite, ma anche grazie a esse: mostrano come gli edifici storici continuino a trasformarsi molto dopo la loro costruzione."
+  }
+ },
+ "v8-why-does-the-progress-bar-never-tell-the-truth": {
+  "it": {
+   "3": "Le barre di avanzamento non servono solo a informare, ma anche a calmarti. Se una schermata sembra immobile, molte persone pensano che il sistema si sia bloccato, quindi alcuni designer preferiscono animazioni, percentuali arrotondate o movimenti iniziali rapidi. Gli studi di interazione uomo-computer mostrano che il tempo percepito conta quasi quanto quello reale: un’attesa con feedback continuo sembra più breve di un’attesa muta. Dire tutta la verità, qui, a volte farebbe sentire peggio."
+  }
+ },
+ "v8-why-is-fire-hot-and-what-is-a-flame-made-of": {
+  "it": {
+   "3": "Una fiamma non ha la stessa temperatura ovunque. In una candela, vicino allo stoppino c’è una regione relativamente più fredda, ricca di vapori di cera non ancora bruciati; più fuori la zona gialla luminosa; ancora più esternamente la regione blu, dove l’ossigeno è più disponibile e la combustione è più completa. Il colore dipende da temperatura e specie chimiche presenti.",
+   "4": "Non tutte le combustioni producono una fiamma brillante. Alcuni combustibili, se mescolati bene con l’aria, bruciano con fiamme quasi invisibili, pallide o azzurre, perché generano poca fuliggine incandescente: succede in certi bruciatori a gas o con l’alcol in condizioni particolari. Se manca soprattutto la componente gialla della fuliggine, la fiamma può sembrare debole anche se resta molto calda. Per questo alcune fiamme sono pericolose: si notano poco ma possono ustionare ugualmente."
+  }
+ },
+ "v8-why-is-glass-transparent-if-it-s-made-of-sand": {
+  "it": {
+   "2": "La luce visibile è un'onda elettromagnetica e, attraversando un materiale, incontra gli elettroni degli atomi. Se la sua energia corrisponde a una transizione elettronica possibile, viene assorbita. Nel vetro comune questo accade poco per la luce visibile, perché il divario energetico tra gli stati disponibili è troppo grande: così la maggior parte dei fotoni passa oltre, mentre l'ultravioletto può essere assorbito molto di più.",
+   "4": "Per produrre vetro non si usa solo silice pura. Spesso si aggiungono soda, cioè carbonato di sodio, e calce, cioè ossido o carbonato di calcio. La soda abbassa la temperatura di fusione e facilita la lavorazione; la calce rende il vetro più stabile e resistente all'acqua. Altri ingredienti possono cambiarne colore, durezza o comportamento ottico: il ferro, per esempio, può dare una sfumatura verdastra. Se restano bolle, cristalli o impurità, la trasparenza peggiora.",
+   "5": "Anche il vetro trasparente non è perfettamente “invisibile”. Una parte della luce viene sempre riflessa sulle superfici, per questo una finestra può fare riflesso. Inoltre il vetro rallenta la luce e fa piegare i raggi quando entrano o escono: è la rifrazione, il principio che permette a lenti, occhiali e microscopi di funzionare. Esistono anche vetri opachi, satinati, colorati o fotocromatici, progettati per assorbire o diffondere certe lunghezze d'onda."
+  }
+ },
+ "v8-why-is-there-no-sound-in-space": {
+  "en": {
+   "5": "Cinema adds booms and roars to space scenes because your brain expects them; without sound, many sequences would feel flat or unreal. Physics says otherwise. An explosion in vacuum would release light, heat, debris, and radiation, but no audible blast would reach you across empty space. If you were floating nearby, with no atmosphere or contact with a structure, you might see it brilliantly but hear nothing at all."
+  }
+ },
+ "vikings-truth": {
+  "it": {
+   "5": "L’età vichinga si chiuse nel 1066, quando Harald Hardrada, re di Norvegia, fu sconfitto in Inghilterra a Stamford Bridge. Ma la vera fine fu più dolce: si convertirono al cristianesimo, si stabilirono nelle terre che avevano razziato e vi si mescolarono. I normanni che conquistarono l’Inghilterra e la Sicilia erano loro discendenti francesizzati. In inglese restano parole come 'sky' e 'window', e Thursday è ancora il giorno di Thor."
+  }
+ },
+ "volcanoes-basics": {
+  "en": {
+   "5": "Italy is the only country in mainland Europe with active volcanoes. Etna is Europe’s highest and one of the world’s most active, erupting almost every year; Stromboli has had small explosions every twenty minutes for at least two thousand years, so sailors called it the lighthouse of the Mediterranean. Vesuvius has slept since 1944 with three million people around it, and Campi Flegrei, a supervolcano under Pozzuoli, raises the ground by centimetres a year under the close watch of the INGV."
+  }
+ },
+ "what-is-blockchain": {
+  "en": {
+   "5": "The tamper-proof ledger is also useful where no money changes hands. Some food supply chains use it to track a batch of coffee from plantation to shelf, so contamination is isolated in seconds rather than days. Notarial deeds and university degrees can be recorded for anyone to verify, without phoning the university."
+  },
+  "it": {
+   "5": "Il registro immodificabile serve anche dove non girano soldi. Alcune catene alimentari lo usano per tracciare un lotto di caffè dalla piantagione allo scaffale, così una contaminazione si isola in secondi invece che in giorni. Il principio è sempre lo stesso: se molte parti non si fidano ma devono condividere una storia comune, una blockchain può sostituire l'arbitro."
+  }
+ },
+ "why-evolution": {
+  "it": {
+   "5": "L'evoluzione non è solo passato remoto: si osserva. I batteri diventano resistenti agli antibiotici in pochi anni, in laboratorio si vedono nascere mutazioni una generazione dopo l'altra, le falene di Manchester si scurirono con la fuliggine industriale e tornarono chiare quando l'aria fu pulita. I fringuelli delle Galápagos cambiano il becco dopo una siccità, e gli elefanti del Mozambico, dopo decenni di bracconaggio, nascono più spesso senza zanne. Il meccanismo di Darwin lavora anche adesso."
+  }
+ },
+ "why-magnets": {
+  "it": {
+   "5": "Ogni motore elettrico, dal frullatore alla Tesla, funziona facendo girare un magnete dentro un campo magnetico prodotto dalla corrente; ogni generatore fa l’inverso, muovendo magneti per produrre corrente. I treni a levitazione magnetica galleggiano su campi che respingono; negli ospedali, le risonanze magnetiche usano magneti superconduttori centomila volte più forti del campo terrestre. I magneti più potenti, al neodimio, sono nelle cuffie che hai in tasca."
+  }
+ },
+ "why-rain-falls": {
+  "it": {
+   "5": "Dagli anni Quaranta l'uomo prova a far piovere. L'inseminazione delle nubi consiste nello spargere dagli aerei particelle di ioduro d'argento, che fanno da nuclei attorno a cui le gocce si formano prima. La Cina l'ha usata per garantire il cielo sereno alle Olimpiadi di Pechino nel 2008, gli Emirati Arabi la praticano centinaia di volte l'anno. Funziona? Gli studi mostrano aumenti modesti, del 10-15%, e solo con nubi già pronte: si può anticipare la pioggia, non crearla dal nulla."
+  }
+ },
+ "why-smartphones-fast": {
+  "en": {
+   "5": "Today, a phone’s speed depends less on the processor and more on everything around it: memory feeding it data fast enough, software using its cores in parallel, and the battery and heat that make it slow down after a few minutes of effort. A chip can do a calculation in a billionth of a second, then wait a hundred times longer for the next data. That is why manufacturers talk less about gigahertz and more about efficiency: doing the same thing using a tenth of the power."
+  },
+  "it": {
+   "5": "Oggi la velocità di un telefono dipende sempre meno dal processore e sempre più da ciò che gli sta intorno: memoria, software, batteria e calore. Un chip può eseguire un calcolo in un miliardesimo di secondo e poi aspettare cento volte tanto il dato successivo; per questo si parla meno di gigahertz e più di efficienza: fare la stessa cosa consumando un decimo."
+  }
+ },
+ "why-sun-shines": {
+  "it": {
+   "5": "Dal 2018 la sonda Parker Solar Probe sfiora il Sole più di qualsiasi oggetto costruito dall'uomo: passa a sei milioni di chilometri dalla superficie, attraverso la corona, la parte esterna dell'atmosfera solare, protetta da uno scudo di carbonio che regge 1.400 gradi. Ha risolto un mistero antico: perché la corona è a un milione di gradi mentre la superficie è a 5.500. La risposta sta nei campi magnetici che si attorcigliano e rilasciano energia come elastici."
+  }
+ },
+ "why-water-strange": {
+  "it": {
+   "5": "L'acqua è ovunque nell'universo, ma quasi mai liquida. Il ghiaccio ricopre le lune di Giove e Saturno, e sotto la crosta di Europa ed Encelado si nascondono oceani salati più grandi di tutti i nostri messi insieme, tenuti liquidi dal calore delle maree. Marte aveva fiumi e laghi tre miliardi di anni fa. Cercare la vita significa cercare l'acqua liquida."
+  }
+ },
+ "world-war-1": {
+  "en": {
+   "5": "The consequences lasted far longer than four years. Four empires fell: German, Austro-Hungarian, Russian and Ottoman, and on their ruins dozens of new states were born, with hastily drawn borders that still fuel conflicts in the Middle East and the Balkans. Russia slid into the Bolshevik revolution. Women won the vote in many countries. And Germany's humiliation at Versailles prepared the ground for Hitler: many historians speak of a single thirty years' war, from 1914 to 1945."
+  },
+  "it": {
+   "5": "Le conseguenze durarono ben più di quattro anni. Caddero quattro imperi: tedesco, austro-ungarico, russo e ottomano; sulle loro macerie nacquero decine di nuovi stati, con confini tracciati in fretta che ancora oggi generano conflitti in Medio Oriente e nei Balcani. La Russia scivolò nella rivoluzione bolscevica, le donne ottennero il voto in molti paesi, e l'umiliazione tedesca a Versailles preparò Hitler: per molti storici fu un'unica guerra dei trent'anni, dal 1914 al 1945."
+  }
+ }
+}

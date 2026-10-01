@@ -43,4 +43,5 @@ PAUSE è un'app mobile (Expo/React Native + FastAPI + MongoDB) di micro-apprendi
   riapplicato da `ensure_seed` (`chapter_fit.apply_fit_overrides`). Backup in `stories_backup_pre_fit`.
 
 ## Next Tasks
-- Eseguire `python fit_chapters.py` appena la Universal Key ha credito (726 capitoli in 230 narrazioni; stima 5–10 $).
+- `fit_chapters.py` eseguito parzialmente (2026-10-01): 281/726 capitoli snelliti (104 storie) con ~1 $ di credito; la chiave si è esaurita.
+  Restano 445 capitoli in 105 narrazioni (~1,2 $). Rilanciare `python fit_chapters.py` (idempotente) dopo la ricarica.
