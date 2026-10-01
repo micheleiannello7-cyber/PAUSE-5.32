@@ -7,6 +7,7 @@ import Ionicons from "@react-native-vector-icons/ionicons";
 import * as Haptics from "@/src/haptics";
 import { Image } from "expo-image";
 import Animated, { useAnimatedStyle, useReducedMotion, useSharedValue, withTiming } from "react-native-reanimated";
+import { play as playSound } from "@/src/sounds";
 import { api, StoryPreview, hasHero, heroUrl } from "@/src/api";
 import { makeStyles, useTheme, spacing, typography, radius, withAlpha } from "@/src/theme";
 import { useUserId } from "@/src/session";
@@ -274,6 +275,8 @@ export default function Discover() {
   const registerActive = useCallback((measure: (() => Promise<CardRect | null>) | null) => { homeCardRef.current = measure; }, [homeCardRef]);
   const openStory = useCallback((story: StoryPreview, rect?: CardRect) => {
     if (morph.active) return;
+    // Suono di "ingresso" nello stesso istante in cui la card inizia a trasformarsi.
+    playSound("enter");
     if (!rect || reducedMotion) { router.push(`/deep-dive/${story.id}`); return; }
     const ready = qc.prefetchQuery({ queryKey: ["story", story.id], queryFn: () => api.story(story.id) });
     const frame = [rect.x, rect.y, rect.width, rect.height].map(Math.round).join(",");

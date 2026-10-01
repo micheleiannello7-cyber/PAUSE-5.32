@@ -4,6 +4,7 @@ import { useFocusEffect } from "expo-router";
 import { Gesture, GestureDetector } from "react-native-gesture-handler";
 import Animated, { cancelAnimation, Easing, Extrapolation, interpolate, runOnJS, runOnUI, useAnimatedStyle, useReducedMotion, useSharedValue, withSequence, withSpring, withTiming, type SharedValue } from "react-native-reanimated";
 import * as Haptics from "@/src/haptics";
+import { play as playSound } from "@/src/sounds";
 import { StoryPreview } from "@/src/api";
 import { makeStyles } from "@/src/theme";
 import { HomeStoryCard } from "./home-story-card";
@@ -115,6 +116,9 @@ export function HomeStoryDeck({ deck, cursor, width, height, onChange, onOpen, o
     nudge.value = 0;
     armIdle();
     runOnUI(commit)(direction);
+    // Micro-tocco quando una nuova card prende il centro (una volta per cambio,
+    // mai durante il trascinamento; `play` filtra le raffiche dello scorrimento veloce).
+    playSound("tick");
     finish(target, virtualPage + direction);
   }, [cursor, deck.length, virtualPage, commit, finish, nudge, armIdle]);
 

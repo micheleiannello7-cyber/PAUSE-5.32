@@ -12,6 +12,7 @@ import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { captureRef } from "react-native-view-shot";
 import * as Sharing from "expo-sharing";
 import * as Haptics from "@/src/haptics";
+import { play as playSound } from "@/src/sounds";
 import { Gesture, GestureDetector } from "react-native-gesture-handler";
 
 import { api } from "@/src/api";
@@ -91,6 +92,7 @@ export default function DeepDive() {
     return () => clearTimeout(timer);
   }, [chaptersReady, morphHost.active]);
   const completedRef = useRef<string | null>(null);
+  const endSoundRef = useRef(false);
   const shareRef = useRef<View>(null);
   const startedAtRef = useRef<number>(Date.now());
   const [section, setSection] = useState(0);
@@ -433,6 +435,8 @@ export default function DeepDive() {
     if (section >= lastSection) {
       if (userId) clearReadingProgress(userId);
       markComplete();
+      // "Da ricordare": piccola conclusione sonora, una sola volta per lettura.
+      if (!endSoundRef.current) { endSoundRef.current = true; playSound("complete"); }
       return;
     }
     // Remember genuine mid-read positions only (skip the intro).
@@ -473,6 +477,7 @@ export default function DeepDive() {
         }
       }
       const next = nextStory ?? (await api.nextStory(story.id, userId ?? undefined));
+      playSound("enter");
       router.replace(`/deep-dive/${next.id}`);
     } catch {}
   };
@@ -490,7 +495,8 @@ export default function DeepDive() {
     Share.share({ message: `${story.title} — ${t.share_suffix}` }).catch(() => {});
   };
 
-  const goBack = () => (router.canGoBack() ? router.back() : router.replace("/(tabs)/discover"));
+  // Ritorno alla Home: lo stesso suono dell'ingresso, al contrario.
+  const goBack = () => { playSound("return"); return router.canGoBack() ? router.back() : router.replace("/(tabs)/discover"); };
   // Ritorno dal lettore (arrivati con la transizione dalla card): solo
   // dall'apertura la schermata "rientra" nella card della Home con il percorso
   // inverso. Da un capitolo o dalla fine (si è già scorso) niente percorso
@@ -502,6 +508,7 @@ export default function DeepDive() {
     if (morph !== "1" || !backRect || !router.canGoBack()) return false;
     if (section > 0 || scrollY.value > 8) return false;
     navigation.setOptions({ animation: "none" });
+    playSound("return");
     morphHost.show(<StoryMorph direction="close" story={story} from={backRect} premium={isPremium} initialReserveCap={reserveCap} onCommit={() => router.back()} />);
     return true;
   };

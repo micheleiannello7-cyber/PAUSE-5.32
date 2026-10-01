@@ -45,6 +45,10 @@ PAUSE è un'app mobile (Expo/React Native + FastAPI + MongoDB) di micro-apprendi
 ## Home (2026-10-01)
 - Rimosso l'indicatore di avanzamento del mazzo (deck-progress.tsx eliminato); la card si allunga dello spazio liberato.
 
+## Identità sonora UI (2026-10-01)
+- `frontend/src/sounds.ts` (expo-audio, un player per suono, volume basso uniforme, throttle sul tick) + interruttore "Effetti sonori" in Profilo (AsyncStorage `pause.sounds.v1`). Non tocca la narrazione TTS.
+- Suoni generati da `frontend/scripts/make_sounds.py` in `assets/sounds/`: enter (Home→lettura, parte con la morph della card), return (= enter al contrario, su back/swipe-back/morph inverso/"Torna alla Home"), complete ("Da ricordare", una volta per lettura), tick (card che prende il centro, max 1 ogni 140 ms).
+
 ## Next Tasks
 - `fit_chapters.py` eseguito parzialmente (2026-10-01): 281/726 capitoli snelliti (104 storie) con ~1 $ di credito; la chiave si è esaurita.
   Restano 445 capitoli in 105 narrazioni (~1,2 $). Rilanciare `python fit_chapters.py` (idempotente) dopo la ricarica.

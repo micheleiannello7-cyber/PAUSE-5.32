@@ -11,6 +11,7 @@ import { MorphHost } from "@/src/components/morph-host";
 import { queryClient } from "@/src/query-client";
 import { ThemeProvider, useTheme } from "@/src/theme";
 import { useLoadFonts } from "@/src/utils/fonts";
+import { preload as preloadSounds } from "@/src/sounds";
 import { I18nProvider, useI18n } from "@/src/i18n";
 import { loadPrefs } from "@/src/prefs-sync";
 import { registerLaunch } from "@/src/coach-tips";
@@ -38,6 +39,7 @@ function PrefsSync() {
   useEffect(() => {
     let alive = true;
     registerLaunch();
+    preloadSounds();
     loadPrefs().then((p) => {
       if (!alive) return;
       if (p.theme_mode && p.theme_mode !== mode) setMode(p.theme_mode);

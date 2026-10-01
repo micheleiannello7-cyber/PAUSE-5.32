@@ -10,6 +10,7 @@ import { useRouter } from "expo-router";
 import { api } from "@/src/api";
 import * as Haptics from "@/src/haptics";
 import { useHapticsEnabled } from "@/src/haptics";
+import { useSoundsEnabled, play as playSound } from "@/src/sounds";
 import { spacing, radius, typography, ACCENTS, useTheme, ThemeMode, AccentId, makeStyles, withAlpha } from "@/src/theme";
 import { AtmospherePreview } from "@/src/components/atmosphere-preview";
 
@@ -35,6 +36,7 @@ export default function Profile() {
   const yearlyPlan = PLANS.find((p) => p.id === "yearly")!;
   const { mode, setMode, accent, setAccent, scheme, colors } = useTheme();
   const [hapticsOn, setHapticsOn] = useHapticsEnabled();
+  const [soundsOn, setSoundsOn] = useSoundsEnabled();
   const styles = useStyles();
 
   const { data: user } = useQuery({
@@ -296,6 +298,22 @@ export default function Profile() {
             trackColor={{ true: colors.cyan, false: colors.glassBorderStrong }}
             thumbColor={hapticsOn ? colors.surface : colors.onSurface}
             testID="haptics-switch"
+          />
+        </View>
+        <View style={styles.row}>
+          <Ionicons name="musical-note-outline" size={20} color={colors.onSurface} />
+          <View style={{ flex: 1 }}>
+            <Text style={styles.rowText}>{t.sounds_row}</Text>
+            <Text style={styles.rowHint}>{t.sounds_hint}</Text>
+          </View>
+          <Switch
+            value={soundsOn}
+            aria-checked={soundsOn}
+            accessibilityLabel={t.sounds_row}
+            onValueChange={(v) => { setSoundsOn(v); if (v) setTimeout(() => playSound("tick"), 0); }}
+            trackColor={{ true: colors.cyan, false: colors.glassBorderStrong }}
+            thumbColor={soundsOn ? colors.surface : colors.onSurface}
+            testID="sounds-switch"
           />
         </View>
         <Pressable style={styles.row} onPress={resetOnboarding} testID="reset-onboarding">
